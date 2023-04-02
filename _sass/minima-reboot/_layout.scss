@@ -1,5 +1,5 @@
 $layout-color-border: #e9ecef !default;
-$layout-color-background: #1b1c1c !default;
+$layout-color-background: #202025 !default;
 $layout-color-syntax-highlighting-background: #f8f9fa !default;
 $layout-responsive-nav-cutoff: 768px !default;
 
@@ -72,4 +72,26 @@ body {
   padding: 0.75rem;
   margin-bottom: 1rem;
   white-space: pre-wrap;
+}
+
+.social-icons {
+  list-style: none; /* remove bullets */
+  display: flex; /* display list items horizontally */
+  justify-content: center; /* center list items horizontally */
+  margin: 0; /* remove default margin */
+}
+
+.social-icons li {
+  margin: 0 10px; /* add some space between each icon */
+}
+
+.social-icons a {
+  display: block; /* make each link element fill the entire list item */
+  padding: 10px; /* add some padding to make it easier to click */
+  color: #eee; /* set the font color */
+  font-size: 24px; /* set the font size */
+}
+
+.social-icons a::before {
+  color: #eee; /* set the color of the pseudo-element */
 }
