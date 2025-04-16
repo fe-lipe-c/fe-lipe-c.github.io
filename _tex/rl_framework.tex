@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage[margin=1in]{geometry}  % or any other size like 2cm, 25mm, etc.
+\usepackage[backend=biber,style=numeric,citestyle=nature]{biblatex}
+\usepackage{parskip}  % This automatically sets paragraph spacing
+% \usepackage{showframe}
+\setlength{\parindent}{20pt}
+\setlength{\parskip}{1em}  % Sets paragraph spacing to 1em
+
+\usepackage[backend=biber,style=numeric,citestyle=nature]{biblatex}
+
+\addbibresource{references.bib}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}[theorem]{Definition}
+
+\newcommand{\DOI}{https://github.com/fe-lipe-c}
+\newcommand{\monthyear}{Month Year}
+
+\emergencystretch=1em
+
+\begin{document}
+
+\section{Reinforcement Learning: General Framework}
+
+A general reinforcement learning problem, with full observability, can be defined as follows:
+
+\begin{definition}\label{def:rl_problem} (Reinforcement Learning Problem) A RL problem is defined by a tuple $\left(\mathbb{G},\mathbb{S},\mathbb{A},\mathcal{P},\Pi,\mathcal{R},\gamma,\mathbb{T},\mu \right)$, where $\mathbb{G} = \{g_{0},g_{1}\}$ is the set with the environment $g_{0}$ and the agent $g_{1}$, $\mathbb{S}$ is the set of states, $\mathbb{A}$ is the set of actions, $\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})$ is the environment state transition function, where $\Delta (\mathbb{S})$ is the space of probability distributions over $\mathbb{S}$, $\Pi$ is the agent's policy space, $\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})$ is the reward function, $\gamma \in [0,1]$ is the discount factor, $\mathbb{T}$ is the time set and $\mu \in \Delta (\mathbb{S})$ is the distribution of the initial state $s_{0} \in \mathbb{S}$.
+\end{definition}
+
+While the literarure describes RL around the Markov Decision Process (MDP) \cite{sutton2018reinforcement}, Definition~\ref{def:rl_problem}  takes a different approach by incorporating MDPs into a broader RL problem definition. An MDP models decision-making problems where the states transitions satisfy the Markov property and are partially controlled by an agent. Formally, an MDP is defined as a tuple $\left(\mathbb{S},\mathbb{A},\mathcal{P},\mathcal{R},\gamma,\mathbb{T},\mu \right)$, where $\mathbb{S}$ is the set of states, $\mathbb{A}$ is the set of actions, $\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})$ is the state transition function, $\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})$ is the reward function, $\gamma \in [0,1]$ is the discount factor and $\mu \in \Delta (\mathbb{S})$ is the distribution of the initial state $s_{0} \in \mathbb{S}$.
+
+In RL there are two primary entities: the agent and the environment. The environment represents the external system with which the agent interacts. These interactions occur within a temporal context that can be either continuous or discrete and may extend over a finite or infinite time horizon. For the purposes of this discussion, we will focus on scenarios within a discrete-time framework.
+
+The environment is characterized by a state space $\mathbb{S}$, whose dynamics are govern by a transition probability function $\mathcal{P}$. In a discrete-time setting, at each time step $t \in \mathbb{T}$, the environment is in a state $s_{t} \in \mathbb{S}$, with the initial state being $s_{0} \sim \mu$. Given the current state $s_{t}$, the agent performs an action $a_{t}$, prompting the environment to transition to a new state $s_{t+1} \sim \mathcal{P}(s_{t},a_{t})$. Concurrently, the agent receives a reward $r_{t+1} \sim \mathcal{R}(s_{t},a_{t},s_{t+1})$. This iterative process continues indefinitely or until a termination condition is met, thus defining a trajectory $\tau_{t} = \left\{s_{0},a_{0}, s_{1},r_{1},a_{1},\dots,s_{t},r_{t},a_{t},s_{t+1},r_{t+1} \right\}$, at each time step $t \in \mathbb{T}$.
+
+Let $\mathcal{T}_{t}$ be the set of all trajectories of lenght $t$:
+\begin{equation*}
+	\mathcal{T}_{t} = \left\{\tau_{t} : \tau_{t}=(s_{0},a_{0},r_{1},s_{1},a_{1},r_{2},s_{2},\dots,s_{t},a_{t},r_{t+1},s_{t+1})\right\}
+\end{equation*}
+The trajectory space $\mathcal{T}$ is defined as the union of all $\mathcal{T}_{t}$, for $t \in \mathbb{T}$:
+\begin{equation*}
+	\mathcal{T} = \bigcup_{t \in \mathbb{T}} \mathcal{T}_{t}
+\end{equation*}
+
+To operate within the environment, the agent selects a policy $\pi \in \Pi$, a function that maps the current state to a probability distribution over the action space $\mathbb{A}$, $\pi: \mathbb{S} \to \Delta(\mathbb{A})$. Since the environment is a MDP, the agent's decision depends only on the current state $s_{t}$, and thus his policy takes only the current state as input. A reinforcement learning algorithm, such as Q-Learning, can be conceptualized as a function $L: \mathcal{T} \to \Pi$ that maps a realized trajectory to a policy. At each discrete time step $t \in \mathbb{T}$, given a trajectory $\tau_{t}$, the agent updates his policy $\pi_{t}$ using $L(\tau_{t})$. Upon observing the current state $s_{t}$, the agent then samples an action $a_{t}$ from the probability distribution defined by $\pi_{t}(s_{t})$.
+
+\section{Partially Observable Reinforcement Learning}
+
+In an environment with partial observability, the agent doesn't have direct access to the complete state of the environment. Instead, it receives observations that may provide incomplete or noisy information about the true state. A first-price auction is a good example of a partially observable environment, where bidders don't know other bidders' private valuations or, in some cases, the total number of participants. Such scenarios are formally modeled using Partially Observable Reinforcement Learning.
+
+\begin{definition} (Partially Observable Reinforcement Learning Problem) A partially observable reinforcement learning problem is defined by a tuple $\left(\mathbb{G},\mathbb{S},\mathbb{A},\mathbb{O},\mathcal{P},\mathcal{O},\Pi,\mathcal{R},\gamma,\mathbb{T},\mu \right)$, where $\mathbb{G} = \{g_{0},g_{1}\}$ is the set containing the environment $g_{0}$ and the agent $g_{1}$, $\mathbb{S}$ is the set of states, $\mathbb{A}$ is the set of actions, $\mathbb{O}$ is the set of observations, $\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})$ is the environment state transition function, where $\Delta (\mathbb{S})$ is the space of probability distributions over $\mathbb{S}$, $\mathcal{O}: \mathbb{S} \times \mathbb{S} \to \Delta(\mathbb{O})$ is the observation function, where $\Delta (\mathbb{O})$ is the space of probability distributions over $\mathbb{O}$, $\Pi$ is the agent's policy space, where policies map histories of observations and actions to distributions over actions, $\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})$ is the reward function, $\gamma \in [0,1]$ is the discount factor, $\mathbb{T}$ is the time set, $\mu \in \Delta (\mathbb{S})$ is the distribution of the initial state $s_{0} \in \mathbb{S}$.
+\end{definition}
+
+A partially observable reinforcement learning problem is structured around two fundamental entities: the environment and the agent, collectively denoted as the set $\mathbb{G}$. Within this framework, the environment exists in various states, represented by the set $\mathbb{S}$, while the agent can perform actions from the set $\mathbb{A}$. The crucial characteristic that distinguishes this from standard reinforcement learning is that the agent cannot directly observe the true state of the environment. Instead, it receives observations from the set $\mathbb{O}$, which may provide incomplete or noisy information about the actual state.
+
+% \pagebreak
+\printbibliography
+
+\end{document}

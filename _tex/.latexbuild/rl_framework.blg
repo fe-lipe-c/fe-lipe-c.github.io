@@ -1,0 +1,16 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is '.latexbuild/rl_framework.blg'
+[42] biber:340> INFO - === Tue Apr 15, 2025, 23:32:49
+[51] Biber.pm:420> INFO - Reading '.latexbuild/rl_framework.bcf'
+[88] Biber.pm:994> INFO - Found 1 citekeys in bib section 0
+[97] Biber.pm:4463> INFO - Processing section 0
+[103] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[104] bibtex.pm:1713> INFO - LaTeX decoding ...
+[105] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[125] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[125] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[126] bbl.pm:676> INFO - Writing '.latexbuild/rl_framework.bbl' with encoding 'UTF-8'
+[126] bbl.pm:677> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[127] bbl.pm:779> INFO - Output to .latexbuild/rl_framework.bbl

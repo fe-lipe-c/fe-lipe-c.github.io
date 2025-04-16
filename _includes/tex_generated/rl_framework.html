@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Reinforcement Learning General Framework</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Reinforcement Learning General Framework</h1>
+</header>
+<h1 id="reinforcement-learning-general-framework">Reinforcement
+Learning: General Framework</h1>
+<p>A general reinforcement learning problem, with full observability,
+can be defined as follows:</p>
+<div id="def:rl_problem" class="definition">
+<p><strong>Definition 1</strong>. <em>(Reinforcement Learning Problem) A
+RL problem is defined by a tuple
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝔾</mi><mo>,</mo><mi>𝕊</mi><mo>,</mo><mi>𝔸</mi><mo>,</mo><mi>𝒫</mi><mo>,</mo><mi>Π</mi><mo>,</mo><mi>ℛ</mi><mo>,</mo><mi>γ</mi><mo>,</mo><mi>𝕋</mi><mo>,</mo><mi>μ</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(\mathbb{G},\mathbb{S},\mathbb{A},\mathcal{P},\Pi,\mathcal{R},\gamma,\mathbb{T},\mu \right)</annotation></semantics></math>,
+where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝔾</mi><mo>=</mo><mo stretchy="false" form="prefix">{</mo><msub><mi>g</mi><mn>0</mn></msub><mo>,</mo><msub><mi>g</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\mathbb{G} = \{g_{0},g_{1}\}</annotation></semantics></math>
+is the set with the environment
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>g</mi><mn>0</mn></msub><annotation encoding="application/x-tex">g_{0}</annotation></semantics></math>
+and the agent
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>g</mi><mn>1</mn></msub><annotation encoding="application/x-tex">g_{1}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>
+is the set of states,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔸</mi><annotation encoding="application/x-tex">\mathbb{A}</annotation></semantics></math>
+is the set of actions,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒫</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})</annotation></semantics></math>
+is the environment state transition function, where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\Delta (\mathbb{S})</annotation></semantics></math>
+is the space of probability distributions over
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Π</mi><annotation encoding="application/x-tex">\Pi</annotation></semantics></math>
+is the agent’s policy space,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ℛ</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>×</mo><mi>𝕊</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>ℝ</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})</annotation></semantics></math>
+is the reward function,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>γ</mi><mo>∈</mo><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">\gamma \in [0,1]</annotation></semantics></math>
+is the discount factor,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕋</mi><annotation encoding="application/x-tex">\mathbb{T}</annotation></semantics></math>
+is the time set and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>μ</mi><mo>∈</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mu \in \Delta (\mathbb{S})</annotation></semantics></math>
+is the distribution of the initial state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mn>0</mn></msub><mo>∈</mo><mi>𝕊</mi></mrow><annotation encoding="application/x-tex">s_{0} \in \mathbb{S}</annotation></semantics></math>.</em></p>
+</div>
+<p>While the literarure describes RL around the Markov Decision Process
+(MDP) <span class="citation"
+data-cites="sutton2018reinforcement"></span>, Definition <a
+href="#def:rl_problem" data-reference-type="ref"
+data-reference="def:rl_problem">1</a> takes a different approach by
+incorporating MDPs into a broader RL problem definition. An MDP models
+decision-making problems where the states transitions satisfy the Markov
+property and are partially controlled by an agent. Formally, an MDP is
+defined as a tuple
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo>,</mo><mi>𝔸</mi><mo>,</mo><mi>𝒫</mi><mo>,</mo><mi>ℛ</mi><mo>,</mo><mi>γ</mi><mo>,</mo><mi>𝕋</mi><mo>,</mo><mi>μ</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(\mathbb{S},\mathbb{A},\mathcal{P},\mathcal{R},\gamma,\mathbb{T},\mu \right)</annotation></semantics></math>,
+where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>
+is the set of states,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔸</mi><annotation encoding="application/x-tex">\mathbb{A}</annotation></semantics></math>
+is the set of actions,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒫</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})</annotation></semantics></math>
+is the state transition function,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ℛ</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>×</mo><mi>𝕊</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>ℝ</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})</annotation></semantics></math>
+is the reward function,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>γ</mi><mo>∈</mo><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">\gamma \in [0,1]</annotation></semantics></math>
+is the discount factor and
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>μ</mi><mo>∈</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mu \in \Delta (\mathbb{S})</annotation></semantics></math>
+is the distribution of the initial state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mn>0</mn></msub><mo>∈</mo><mi>𝕊</mi></mrow><annotation encoding="application/x-tex">s_{0} \in \mathbb{S}</annotation></semantics></math>.</p>
+<p>In RL there are two primary entities: the agent and the environment.
+The environment represents the external system with which the agent
+interacts. These interactions occur within a temporal context that can
+be either continuous or discrete and may extend over a finite or
+infinite time horizon. For the purposes of this discussion, we will
+focus on scenarios within a discrete-time framework.</p>
+<p>The environment is characterized by a state space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>,
+whose dynamics are govern by a transition probability function
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝒫</mi><annotation encoding="application/x-tex">\mathcal{P}</annotation></semantics></math>.
+In a discrete-time setting, at each time step
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow><annotation encoding="application/x-tex">t \in \mathbb{T}</annotation></semantics></math>,
+the environment is in a state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mi>t</mi></msub><mo>∈</mo><mi>𝕊</mi></mrow><annotation encoding="application/x-tex">s_{t} \in \mathbb{S}</annotation></semantics></math>,
+with the initial state being
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mn>0</mn></msub><mo>∼</mo><mi>μ</mi></mrow><annotation encoding="application/x-tex">s_{0} \sim \mu</annotation></semantics></math>.
+Given the current state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>s</mi><mi>t</mi></msub><annotation encoding="application/x-tex">s_{t}</annotation></semantics></math>,
+the agent performs an action
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>a</mi><mi>t</mi></msub><annotation encoding="application/x-tex">a_{t}</annotation></semantics></math>,
+prompting the environment to transition to a new state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>∼</mo><mi>𝒫</mi><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>s</mi><mi>t</mi></msub><mo>,</mo><msub><mi>a</mi><mi>t</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">s_{t+1} \sim \mathcal{P}(s_{t},a_{t})</annotation></semantics></math>.
+Concurrently, the agent receives a reward
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>r</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>∼</mo><mi>ℛ</mi><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>s</mi><mi>t</mi></msub><mo>,</mo><msub><mi>a</mi><mi>t</mi></msub><mo>,</mo><msub><mi>s</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">r_{t+1} \sim \mathcal{R}(s_{t},a_{t},s_{t+1})</annotation></semantics></math>.
+This iterative process continues indefinitely or until a termination
+condition is met, thus defining a trajectory
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>τ</mi><mi>t</mi></msub><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><msub><mi>s</mi><mn>0</mn></msub><mo>,</mo><msub><mi>a</mi><mn>0</mn></msub><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>s</mi><mi>t</mi></msub><mo>,</mo><msub><mi>r</mi><mi>t</mi></msub><mo>,</mo><msub><mi>a</mi><mi>t</mi></msub><mo>,</mo><msub><mi>s</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>r</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="true" form="postfix">}</mo></mrow></mrow><annotation encoding="application/x-tex">\tau_{t} = \left\{s_{0},a_{0}, s_{1},r_{1},a_{1},\dots,s_{t},r_{t},a_{t},s_{t+1},r_{t+1} \right\}</annotation></semantics></math>,
+at each time step
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow><annotation encoding="application/x-tex">t \in \mathbb{T}</annotation></semantics></math>.</p>
+<p>Let
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>𝒯</mi><mi>t</mi></msub><annotation encoding="application/x-tex">\mathcal{T}_{t}</annotation></semantics></math>
+be the set of all trajectories of lenght
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>t</mi><annotation encoding="application/x-tex">t</annotation></semantics></math>:
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>𝒯</mi><mi>t</mi></msub><mo>=</mo><mrow><mo stretchy="true" form="prefix">{</mo><msub><mi>τ</mi><mi>t</mi></msub><mo>:</mo><msub><mi>τ</mi><mi>t</mi></msub><mo>=</mo><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>s</mi><mn>0</mn></msub><mo>,</mo><msub><mi>a</mi><mn>0</mn></msub><mo>,</mo><msub><mi>r</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>a</mi><mn>1</mn></msub><mo>,</mo><msub><mi>r</mi><mn>2</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>,</mo><mi>…</mi><mo>,</mo><msub><mi>s</mi><mi>t</mi></msub><mo>,</mo><msub><mi>a</mi><mi>t</mi></msub><mo>,</mo><msub><mi>r</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo>,</mo><msub><mi>s</mi><mrow><mi>t</mi><mo>+</mo><mn>1</mn></mrow></msub><mo stretchy="true" form="postfix">)</mo></mrow><mo stretchy="true" form="postfix">}</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{T}_{t} = \left\{\tau_{t} : \tau_{t}=(s_{0},a_{0},r_{1},s_{1},a_{1},r_{2},s_{2},\dots,s_{t},a_{t},r_{t+1},s_{t+1})\right\}</annotation></semantics></math>
+The trajectory space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝒯</mi><annotation encoding="application/x-tex">\mathcal{T}</annotation></semantics></math>
+is defined as the union of all
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>𝒯</mi><mi>t</mi></msub><annotation encoding="application/x-tex">\mathcal{T}_{t}</annotation></semantics></math>,
+for
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow><annotation encoding="application/x-tex">t \in \mathbb{T}</annotation></semantics></math>:
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒯</mi><mo>=</mo><munder><mo>⋃</mo><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow></munder><msub><mi>𝒯</mi><mi>t</mi></msub></mrow><annotation encoding="application/x-tex">\mathcal{T} = \bigcup_{t \in \mathbb{T}} \mathcal{T}_{t}</annotation></semantics></math></p>
+<p>To operate within the environment, the agent selects a policy
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mo>∈</mo><mi>Π</mi></mrow><annotation encoding="application/x-tex">\pi \in \Pi</annotation></semantics></math>,
+a function that maps the current state to a probability distribution
+over the action space
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔸</mi><annotation encoding="application/x-tex">\mathbb{A}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>π</mi><mo>:</mo><mi>𝕊</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝔸</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\pi: \mathbb{S} \to \Delta(\mathbb{A})</annotation></semantics></math>.
+Since the environment is a MDP, the agent’s decision depends only on the
+current state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>s</mi><mi>t</mi></msub><annotation encoding="application/x-tex">s_{t}</annotation></semantics></math>,
+and thus his policy takes only the current state as input. A
+reinforcement learning algorithm, such as Q-Learning, can be
+conceptualized as a function
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mo>:</mo><mi>𝒯</mi><mo>→</mo><mi>Π</mi></mrow><annotation encoding="application/x-tex">L: \mathcal{T} \to \Pi</annotation></semantics></math>
+that maps a realized trajectory to a policy. At each discrete time step
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>t</mi><mo>∈</mo><mi>𝕋</mi></mrow><annotation encoding="application/x-tex">t \in \mathbb{T}</annotation></semantics></math>,
+given a trajectory
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>τ</mi><mi>t</mi></msub><annotation encoding="application/x-tex">\tau_{t}</annotation></semantics></math>,
+the agent updates his policy
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>π</mi><mi>t</mi></msub><annotation encoding="application/x-tex">\pi_{t}</annotation></semantics></math>
+using
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>L</mi><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>τ</mi><mi>t</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">L(\tau_{t})</annotation></semantics></math>.
+Upon observing the current state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>s</mi><mi>t</mi></msub><annotation encoding="application/x-tex">s_{t}</annotation></semantics></math>,
+the agent then samples an action
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>a</mi><mi>t</mi></msub><annotation encoding="application/x-tex">a_{t}</annotation></semantics></math>
+from the probability distribution defined by
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>π</mi><mi>t</mi></msub><mrow><mo stretchy="true" form="prefix">(</mo><msub><mi>s</mi><mi>t</mi></msub><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\pi_{t}(s_{t})</annotation></semantics></math>.</p>
+<h1 id="partially-observable-reinforcement-learning">Partially
+Observable Reinforcement Learning</h1>
+<p>In an environment with partial observability, the agent doesn’t have
+direct access to the complete state of the environment. Instead, it
+receives observations that may provide incomplete or noisy information
+about the true state. A first-price auction is a good example of a
+partially observable environment, where bidders don’t know other
+bidders’ private valuations or, in some cases, the total number of
+participants. Such scenarios are formally modeled using Partially
+Observable Reinforcement Learning.</p>
+<div class="definition">
+<p><strong>Definition 2</strong>. <em>(Partially Observable
+Reinforcement Learning Problem) A partially observable reinforcement
+learning problem is defined by a tuple
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝔾</mi><mo>,</mo><mi>𝕊</mi><mo>,</mo><mi>𝔸</mi><mo>,</mo><mi>𝕆</mi><mo>,</mo><mi>𝒫</mi><mo>,</mo><mi>𝒪</mi><mo>,</mo><mi>Π</mi><mo>,</mo><mi>ℛ</mi><mo>,</mo><mi>γ</mi><mo>,</mo><mi>𝕋</mi><mo>,</mo><mi>μ</mi><mo stretchy="true" form="postfix">)</mo></mrow><annotation encoding="application/x-tex">\left(\mathbb{G},\mathbb{S},\mathbb{A},\mathbb{O},\mathcal{P},\mathcal{O},\Pi,\mathcal{R},\gamma,\mathbb{T},\mu \right)</annotation></semantics></math>,
+where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝔾</mi><mo>=</mo><mo stretchy="false" form="prefix">{</mo><msub><mi>g</mi><mn>0</mn></msub><mo>,</mo><msub><mi>g</mi><mn>1</mn></msub><mo stretchy="false" form="postfix">}</mo></mrow><annotation encoding="application/x-tex">\mathbb{G} = \{g_{0},g_{1}\}</annotation></semantics></math>
+is the set containing the environment
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>g</mi><mn>0</mn></msub><annotation encoding="application/x-tex">g_{0}</annotation></semantics></math>
+and the agent
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><msub><mi>g</mi><mn>1</mn></msub><annotation encoding="application/x-tex">g_{1}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>
+is the set of states,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔸</mi><annotation encoding="application/x-tex">\mathbb{A}</annotation></semantics></math>
+is the set of actions,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕆</mi><annotation encoding="application/x-tex">\mathbb{O}</annotation></semantics></math>
+is the set of observations,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒫</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{P}: \mathbb{S} \times \mathbb{A} \to \Delta(\mathbb{S})</annotation></semantics></math>
+is the environment state transition function, where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\Delta (\mathbb{S})</annotation></semantics></math>
+is the space of probability distributions over
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>𝒪</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝕊</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕆</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{O}: \mathbb{S} \times \mathbb{S} \to \Delta(\mathbb{O})</annotation></semantics></math>
+is the observation function, where
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕆</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\Delta (\mathbb{O})</annotation></semantics></math>
+is the space of probability distributions over
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕆</mi><annotation encoding="application/x-tex">\mathbb{O}</annotation></semantics></math>,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>Π</mi><annotation encoding="application/x-tex">\Pi</annotation></semantics></math>
+is the agent’s policy space, where policies map histories of
+observations and actions to distributions over actions,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>ℛ</mi><mo>:</mo><mi>𝕊</mi><mo>×</mo><mi>𝔸</mi><mo>×</mo><mi>𝕊</mi><mo>→</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>ℝ</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{R}: \mathbb{S} \times \mathbb{A} \times \mathbb{S} \to \Delta (\mathbb{R})</annotation></semantics></math>
+is the reward function,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>γ</mi><mo>∈</mo><mrow><mo stretchy="true" form="prefix">[</mo><mn>0</mn><mo>,</mo><mn>1</mn><mo stretchy="true" form="postfix">]</mo></mrow></mrow><annotation encoding="application/x-tex">\gamma \in [0,1]</annotation></semantics></math>
+is the discount factor,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕋</mi><annotation encoding="application/x-tex">\mathbb{T}</annotation></semantics></math>
+is the time set,
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>μ</mi><mo>∈</mo><mi>Δ</mi><mrow><mo stretchy="true" form="prefix">(</mo><mi>𝕊</mi><mo stretchy="true" form="postfix">)</mo></mrow></mrow><annotation encoding="application/x-tex">\mu \in \Delta (\mathbb{S})</annotation></semantics></math>
+is the distribution of the initial state
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>s</mi><mn>0</mn></msub><mo>∈</mo><mi>𝕊</mi></mrow><annotation encoding="application/x-tex">s_{0} \in \mathbb{S}</annotation></semantics></math>.</em></p>
+</div>
+<p>A partially observable reinforcement learning problem is structured
+around two fundamental entities: the environment and the agent,
+collectively denoted as the set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔾</mi><annotation encoding="application/x-tex">\mathbb{G}</annotation></semantics></math>.
+Within this framework, the environment exists in various states,
+represented by the set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕊</mi><annotation encoding="application/x-tex">\mathbb{S}</annotation></semantics></math>,
+while the agent can perform actions from the set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝔸</mi><annotation encoding="application/x-tex">\mathbb{A}</annotation></semantics></math>.
+The crucial characteristic that distinguishes this from standard
+reinforcement learning is that the agent cannot directly observe the
+true state of the environment. Instead, it receives observations from
+the set
+<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>𝕆</mi><annotation encoding="application/x-tex">\mathbb{O}</annotation></semantics></math>,
+which may provide incomplete or noisy information about the actual
+state.</p>
+</body>
+</html>
