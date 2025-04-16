@@ -3,6 +3,16 @@ author: Felipe Costa
 email: 
 description: >
 
+include: ["_pages"]
+
+# include:
+#   - _pages/notes.md
+
+header_pages:
+  - _pages/about.md
+  - _pages/posts.md
+  - _pages/notes.md
+
 plugins:
   - jekyll-seo-tag
   - jekyll-paginate
@@ -15,10 +25,17 @@ minima_reboot:
   date_format: "%B %-d, %Y"
   date_format_short: "%b %-d"
 
-header_pages:
-- about.md
-- posts.md
-- cv.md
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:title/
+  # projects:
+  #   output: true
+  #   permalink: /:collection/:title/
 # - github.md
 
 # footer_icons:
