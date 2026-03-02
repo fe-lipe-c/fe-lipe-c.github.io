@@ -1,7 +1,9 @@
 title: Felipe Costa
+url: "https://fe-lipe-c.github.io"
+baseurl: ""
 author: Felipe Costa
-email: 
-description: >
+email: felipe84zt@gmail.com
+description: "Personal blog on math, finance, and programming."
 
 include: ["_pages"]
 
@@ -18,7 +20,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  # - jekyll-feed
+  - jekyll-feed
   # - jekyll-redirect-from
 
 minima_reboot:
@@ -44,6 +46,7 @@ collections:
 #   icon: icon-github.svg
 
 paginate: 5
+paginate_path: "/posts/page:num/"
 
 markdown: kramdown
 highlighter: rouge

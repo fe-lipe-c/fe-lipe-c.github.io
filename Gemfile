@@ -9,6 +9,11 @@ gem 'jekyll-sitemap', '~> 1.4'
 
 gem 'jekyll-gist', '~> 1.5'
 
+gem 'jekyll-feed', '~> 0.15'
+gem 'jekyll-paginate', '~> 1.1'
+gem 'jekyll-redirect-from', '~> 0.16'
+gem 'kramdown-parser-gfm', '~> 1.1'
+
 # source 'https://rubygems.org'
 
 # gem 'jekyll', '~> 4.3.2'
