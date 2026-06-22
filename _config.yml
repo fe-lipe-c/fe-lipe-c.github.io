@@ -13,7 +13,6 @@ include: ["_pages"]
 header_pages:
   - _pages/about.md
   - _pages/posts.md
-  - _pages/notes.md
 
 plugins:
   - jekyll-seo-tag
@@ -32,9 +31,6 @@ minima_reboot:
 # -----------------------------------------------------------------------------
 
 collections:
-  notes:
-    output: true
-    permalink: /notes/:title/
   # projects:
   #   output: true
   #   permalink: /:collection/:title/

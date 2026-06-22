@@ -1,0 +1,9 @@
+{%- comment -%}
+  Per-post opt-in for interactive D3 charts.
+  Set `d3: true` in a post's front matter to load D3 v7 and the chart
+  styles ONLY on that page. Posts without the flag are unaffected.
+{%- endcomment -%}
+{% if page.d3 %}
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <link rel="stylesheet" href="{{ "/assets/css/chart.css" | relative_url }}">
+{% endif %}

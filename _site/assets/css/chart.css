@@ -1,0 +1,41 @@
+/*
+ * Styles for interactive D3 charts.
+ * Loaded only on posts that set `d3: true` in front matter (see
+ * _includes/head-includes.html), so these rules stay out of the global
+ * stylesheet bundle (assets/main.scss).
+ */
+
+.d3-chart {
+  width: 100%;
+  max-width: 720px;
+  margin: 1.5rem auto;
+}
+
+.d3-chart svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.d3-chart .axis text {
+  font-size: 0.75rem;
+  fill: #444;
+}
+
+.d3-chart .axis path,
+.d3-chart .axis line {
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+.d3-chart .tooltip {
+  position: absolute;
+  pointer-events: none;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 3px;
+  white-space: nowrap;
+}

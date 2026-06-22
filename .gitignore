@@ -1,0 +1,3 @@
+# Jekyll build artifacts that were previously checked in
+_posts/_site/
+_tex/.latexbuild/
