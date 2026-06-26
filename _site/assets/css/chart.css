@@ -39,3 +39,93 @@
   border-radius: 3px;
   white-space: nowrap;
 }
+
+/* ---- Chart A: directed continent chord ---- */
+#wc2026-chord {
+  width: 100%;
+  max-width: 640px;
+  margin: 1.5rem auto;
+}
+
+.chord-arc {
+  stroke-width: 1;
+}
+
+.chord-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  fill: #333;
+}
+
+.chord-ribbon {
+  stroke-width: 0.5;
+  transition: fill-opacity 0.15s ease;
+}
+
+.chord-ribbon:hover {
+  fill-opacity: 1;
+}
+
+/* ---- Chart B: per-team bars ---- */
+.wc2026-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.wc2026-controls select {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 0.9rem;
+}
+
+#wc2026-team-bars {
+  width: 100%;
+  max-width: 720px;
+  margin: 0.5rem 0 1.5rem;
+}
+
+#wc2026-team-bars .bar:hover {
+  fill-opacity: 0.85;
+}
+
+#wc2026-team-bars .bar-value {
+  font-size: 0.72rem;
+  fill: #444;
+}
+
+.axis text {
+  font-size: 0.72rem;
+  fill: #444;
+}
+
+.axis path,
+.axis line {
+  stroke: #ccc;
+  shape-rendering: crispEdges;
+}
+
+/* Legend for home vs abroad */
+.wc2026-legend {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  margin: 0.25rem 0 0.5rem;
+  color: #444;
+}
+
+.wc2026-legend .swatch {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 2px;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+.swatch-home { background: #59a14f; }
+.swatch-abroad { background: #4e79a7; }

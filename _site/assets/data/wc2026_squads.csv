@@ -1,0 +1,1249 @@
+group,national_team,player,position,club,club_country,plays_abroad
+A,Mexico,Guillermo Ochoa,GK,AEL Limassol,Cyprus,Yes
+A,Mexico,Raul Rangel,GK,Guadalajara,Mexico,No
+A,Mexico,Carlos Acevedo,GK,Santos Laguna,Mexico,No
+A,Mexico,Jesus Gallardo,DEF,Toluca,Mexico,No
+A,Mexico,Israel Reyes,DEF,America,Mexico,No
+A,Mexico,Cesar Montes,DEF,Lokomotiv Moscow,Russia,Yes
+A,Mexico,Jorge Sanchez,DEF,PAOK,Greece,Yes
+A,Mexico,Johan Vazquez,DEF,Genoa,Italy,Yes
+A,Mexico,Mateo Chavez,DEF,AZ Alkmaar,Netherlands,Yes
+A,Mexico,Gilberto Mora,MID,Tijuana,Mexico,No
+A,Mexico,Edson Alvarez,MID,Fenerbahce,Turkey,Yes
+A,Mexico,Orbelin Pineda,MID,AEK Athens,Greece,Yes
+A,Mexico,Luis Romo,MID,Guadalajara,Mexico,No
+A,Mexico,Brian Gutierrez,MID,Guadalajara,Mexico,No
+A,Mexico,Obed Vargas,MID,Atletico Madrid,Spain,Yes
+A,Mexico,Cesar Huerta,MID,Anderlecht,Belgium,Yes
+A,Mexico,Luis Chavez,MID,Dynamo Moscow,Russia,Yes
+A,Mexico,Erik Lira,MID,Cruz Azul,Mexico,No
+A,Mexico,Alvaro Fidalgo,MID,Real Betis,Spain,Yes
+A,Mexico,Roberto Alvarado,MID,Guadalajara,Mexico,No
+A,Mexico,Armando Gonzalez,FWD,Guadalajara,Mexico,No
+A,Mexico,Raul Jimenez,FWD,Fulham,England,Yes
+A,Mexico,Julian Quinones,FWD,Al Qadsiah,Saudi Arabia,Yes
+A,Mexico,Santiago Gimenez,FWD,AC Milan,Italy,Yes
+A,Mexico,Guillermo Martinez,FWD,UNAM,Mexico,No
+A,Mexico,Alexis Vega,FWD,Toluca,Mexico,No
+A,South Africa,Ronwen Williams,GK,Mamelodi Sundowns,South Africa,No
+A,South Africa,Ricardo Goss,GK,Siwelele,South Africa,No
+A,South Africa,Sipho Chaine,GK,Orlando Pirates,South Africa,No
+A,South Africa,Khuliso Mudau,DEF,Mamelodi Sundowns,South Africa,No
+A,South Africa,Olwethu Makhanya,DEF,Philadelphia Union,USA,Yes
+A,South Africa,Bradley Cross,DEF,Kaizer Chiefs,South Africa,No
+A,South Africa,Aubrey Modiba,DEF,Mamelodi Sundowns,South Africa,No
+A,South Africa,Thabang Matuludi,DEF,Polokwane City,South Africa,No
+A,South Africa,Nkosinathi Sibisi,DEF,Orlando Pirates,South Africa,No
+A,South Africa,Ime Okon,DEF,Hannover 96,Germany,Yes
+A,South Africa,Samukele Kabini,DEF,Molde,Norway,Yes
+A,South Africa,Mbekezeli Mbokazi,DEF,Chicago Fire,USA,Yes
+A,South Africa,Khulumani Ndamane,DEF,Mamelodi Sundowns,South Africa,No
+A,South Africa,Teboho Mokoena,MID,Mamelodi Sundowns,South Africa,No
+A,South Africa,Thalente Mbatha,MID,Orlando Pirates,South Africa,No
+A,South Africa,Jayden Adams,MID,Mamelodi Sundowns,South Africa,No
+A,South Africa,Sphephelo Sithole,MID,CD Tondela,Portugal,Yes
+A,South Africa,Themba Zwane,MID,Mamelodi Sundowns,South Africa,No
+A,South Africa,Oswin Appollis,FWD,Orlando Pirates,South Africa,No
+A,South Africa,Tshepang Moremi,FWD,Orlando Pirates,South Africa,No
+A,South Africa,Evidence Makgopa,FWD,Orlando Pirates,South Africa,No
+A,South Africa,Lyle Foster,FWD,Burnley,England,Yes
+A,South Africa,Oqraam Rayners,FWD,Mamelodi Sundowns,South Africa,No
+A,South Africa,Relebohile Mofokeng,FWD,Orlando Pirates,South Africa,No
+A,South Africa,Thapelo Maseko,FWD,AEL Limassol,Cyprus,Yes
+A,South Africa,Kamogelo Sebelebele,FWD,Orlando Pirates,South Africa,No
+A,South Korea,Jo Hyun-woo,GK,Ulsan HD,South Korea,No
+A,South Korea,Kim Seung-gyu,GK,FC Tokyo,Japan,Yes
+A,South Korea,Song Bum-keun,GK,Jeonbuk Hyundai,South Korea,No
+A,South Korea,Kim Min-jae,DEF,Bayern Munich,Germany,Yes
+A,South Korea,Cho Wi-je,DEF,Jeonbuk Hyundai Motors,South Korea,No
+A,South Korea,Lee Han-beom,DEF,Midtjylland,Denmark,Yes
+A,South Korea,Kim Tae-hyun,DEF,Kashima Antlers,Japan,Yes
+A,South Korea,Park Jin-seob,DEF,Zhejiang FC,China,Yes
+A,South Korea,Lee Ki-hyeok,DEF,Gangwon FC,South Korea,No
+A,South Korea,Lee Tae-seok,DEF,Austria Vienna,Austria,Yes
+A,South Korea,Seol Young-woo,DEF,Red Star Belgrade,Serbia,Yes
+A,South Korea,Jens Castrop,DEF,Borussia Monchengladbach,Germany,Yes
+A,South Korea,Kim Moon-hwan,DEF,Daejeon Hana,South Korea,No
+A,South Korea,Yang Hyun-jun,MID,Celtic,Scotland,Yes
+A,South Korea,Paik Seung-ho,MID,Birmingham City,England,Yes
+A,South Korea,Hwang In-beom,MID,Feyenoord,Netherlands,Yes
+A,South Korea,Kim Jin-gyu,MID,Jeonbuk Hyundai,South Korea,No
+A,South Korea,Bae Jun-ho,MID,Stoke City,England,Yes
+A,South Korea,Eom Ji-sung,MID,Swansea City,England,Yes
+A,South Korea,Hwang Hee-chan,MID,Wolverhampton Wanderers,England,Yes
+A,South Korea,Lee Dong-gyeong,MID,Ulsan HD,South Korea,No
+A,South Korea,Lee Jae-sung,MID,Mainz,Germany,Yes
+A,South Korea,Lee Kang-in,MID,Paris Saint-Germain,France,Yes
+A,South Korea,Oh Hyeon-gyu,FWD,Besiktas,Turkey,Yes
+A,South Korea,Son Heung-min,FWD,LA FC,USA,Yes
+A,South Korea,Cho Gue-sung,FWD,Midtjylland,Denmark,Yes
+A,Czech Republic,Lukas Hornicek,GK,Braga,Portugal,Yes
+A,Czech Republic,Matej Kovar,GK,PSV,Netherlands,Yes
+A,Czech Republic,Jindrich Stanek,GK,Slavia Prague,Czech Republic,No
+A,Czech Republic,Vladimir Coufal,DEF,Hoffenheim,Germany,Yes
+A,Czech Republic,David Doudera,DEF,Slavia Prague,Czech Republic,No
+A,Czech Republic,Tomas Holes,DEF,Slavia Prague,Czech Republic,No
+A,Czech Republic,Robin Hranac,DEF,Hoffenheim,Germany,Yes
+A,Czech Republic,Stepan Chaloupek,DEF,Slavia Prague,Czech Republic,No
+A,Czech Republic,David Jurasek,DEF,Slavia Prague,Czech Republic,No
+A,Czech Republic,Ladislav Krejci,DEF,Wolverhampton Wanderers,England,Yes
+A,Czech Republic,Jaroslav Zeleny,DEF,Sparta Prague,Czech Republic,No
+A,Czech Republic,David Zima,DEF,Slavia Prague,Czech Republic,No
+A,Czech Republic,Lukas Cerv,MID,Viktoria Plzen,Czech Republic,No
+A,Czech Republic,Vladimir Darida,MID,Hradec Kralove,Czech Republic,No
+A,Czech Republic,Lukas Provod,MID,Slavia Prague,Czech Republic,No
+A,Czech Republic,Michal Sadilek,MID,Slavia Prague,Czech Republic,No
+A,Czech Republic,Hugo Sochurek,MID,Sparta Prague,Czech Republic,No
+A,Czech Republic,Alexandr Sojka,MID,Viktoria Plzen,Czech Republic,No
+A,Czech Republic,Tomas Soucek,MID,West Ham United,England,Yes
+A,Czech Republic,Pavel Sulc,MID,Lyon,France,Yes
+A,Czech Republic,Denis Visinsky,MID,Viktoria Plzen,Czech Republic,No
+A,Czech Republic,Adam Hlozek,FWD,Hoffenheim,Germany,Yes
+A,Czech Republic,Tomas Chory,FWD,Slavia Prague,Czech Republic,No
+A,Czech Republic,Mojmir Chytil,FWD,Slavia Prague,Czech Republic,No
+A,Czech Republic,Jan Kuchta,FWD,Sparta Prague,Czech Republic,No
+A,Czech Republic,Patrik Schick,FWD,Bayer Leverkusen,Germany,Yes
+B,Canada,Maxime Crepeau,GK,Orlando City,USA,Yes
+B,Canada,Owen Goodman,GK,Barnsley,England,Yes
+B,Canada,Dayne St. Clair,GK,Inter Miami,USA,Yes
+B,Canada,Moise Bombito,DEF,OGC Nice,France,Yes
+B,Canada,Derek Cornelius,DEF,Rangers,Scotland,Yes
+B,Canada,Alphonso Davies,DEF,Bayern Munich,Germany,Yes
+B,Canada,Luc de Fougerolles,DEF,FCV Dender,Belgium,Yes
+B,Canada,Alistair Johnston,DEF,Celtic,Scotland,Yes
+B,Canada,Alfie Jones,DEF,Middlesbrough,England,Yes
+B,Canada,Richie Laryea,DEF,Toronto FC,USA,Yes
+B,Canada,Niko Sigur,DEF,Hajduk Split,Croatia,Yes
+B,Canada,Joel Waterman,DEF,Chicago Fire,USA,Yes
+B,Canada,Ali Ahmed,MID,Norwich City,England,Yes
+B,Canada,Tajon Buchanan,MID,Villarreal,Spain,Yes
+B,Canada,Mathieu Choiniere,MID,Los Angeles FC,USA,Yes
+B,Canada,Stephen Eustaquio,MID,Porto,Portugal,Yes
+B,Canada,Jayden Nelson,MID,Austin FC,USA,Yes
+B,Canada,Ismael Kone,MID,Sassuolo,Italy,Yes
+B,Canada,Liam Millar,MID,Hull City,England,Yes
+B,Canada,Jonathan Osorio,MID,Toronto FC,USA,Yes
+B,Canada,Nathan Saliba,MID,RSC Anderlecht,Belgium,Yes
+B,Canada,Jacob Shaffelburg,MID,Los Angeles FC,USA,Yes
+B,Canada,Jonathan David,FWD,Juventus,Italy,Yes
+B,Canada,Cyle Larin,FWD,Southampton,England,Yes
+B,Canada,Tani Oluwaseyi,FWD,Villarreal,Spain,Yes
+B,Canada,Promise David,FWD,Union SG,Belgium,Yes
+B,Bosnia and Herzegovina,Nikola Vasilj,GK,St Pauli,Germany,Yes
+B,Bosnia and Herzegovina,Martin Zlomislic,GK,Rijeka,Croatia,Yes
+B,Bosnia and Herzegovina,Mladan Jurkas,GK,Borac Banja Luka,Bosnia and Herzegovina,No
+B,Bosnia and Herzegovina,Sead Kolasinac,DEF,Atalanta,Italy,Yes
+B,Bosnia and Herzegovina,Amar Dedic,DEF,Benfica,Portugal,Yes
+B,Bosnia and Herzegovina,Nihad Mujakic,DEF,Gaziantep,Turkey,Yes
+B,Bosnia and Herzegovina,Nikola Katic,DEF,Schalke 04,Germany,Yes
+B,Bosnia and Herzegovina,Tarik Muharemovic,DEF,Sassuolo,Italy,Yes
+B,Bosnia and Herzegovina,Stjepan Radeljic,DEF,Rijeka,Croatia,Yes
+B,Bosnia and Herzegovina,Dennis Hadzikadunic,DEF,Sampdoria,Italy,Yes
+B,Bosnia and Herzegovina,Arjan Malic,DEF,Sturm Graz,Austria,Yes
+B,Bosnia and Herzegovina,Amir Hadziahmetovic,MID,Hull City,England,Yes
+B,Bosnia and Herzegovina,Ivan Sunjic,MID,Pafos,Cyprus,Yes
+B,Bosnia and Herzegovina,Ivan Basic,MID,Astana,Kazakhstan,Yes
+B,Bosnia and Herzegovina,Dzenis Burnic,MID,Karlsruher SC,Germany,Yes
+B,Bosnia and Herzegovina,Ermin Mahmic,MID,Slovan Liberec,Czech Republic,Yes
+B,Bosnia and Herzegovina,Benjamin Tahirovic,MID,Brondby,Denmark,Yes
+B,Bosnia and Herzegovina,Amar Memic,MID,Viktoria Plzen,Czech Republic,Yes
+B,Bosnia and Herzegovina,Armin Gigovic,MID,Young Boys,Switzerland,Yes
+B,Bosnia and Herzegovina,Kerim Alajbegovic,MID,RB Salzburg,Austria,Yes
+B,Bosnia and Herzegovina,Esmir Bajraktarevic,MID,PSV Eindhoven,Netherlands,Yes
+B,Bosnia and Herzegovina,Ermedin Demirovic,FWD,VfB Stuttgart,Germany,Yes
+B,Bosnia and Herzegovina,Jovo Lukic,FWD,Universitatea Cluj,Romania,Yes
+B,Bosnia and Herzegovina,Samed Bazdar,FWD,Jagiellonia Bialystok,Poland,Yes
+B,Bosnia and Herzegovina,Haris Tabakovic,FWD,Borussia Monchengladbach,Germany,Yes
+B,Bosnia and Herzegovina,Edin Dzeko,FWD,Schalke,Germany,Yes
+B,Qatar,Salah Zakaria,GK,Al Duhail SC,Qatar,No
+B,Qatar,Meshaal Barsham,GK,Al Sadd SC,Qatar,No
+B,Qatar,Mahmoud Abunada,GK,Al Rayyan SC,Qatar,No
+B,Qatar,Boualem Khoukhi,DEF,Al Sadd SC,Qatar,No
+B,Qatar,Pedro Miguel,DEF,Al Sadd,Qatar,No
+B,Qatar,Sultan Al Brake,DEF,Al Duhail SC,Qatar,No
+B,Qatar,Al Hashmi Al-Hussain,DEF,Al Arabi SC,Qatar,No
+B,Qatar,Ayoub Al-Alawi,DEF,Al Gharafa,Qatar,No
+B,Qatar,Issa Laye,DEF,Al Arabi SC,Qatar,No
+B,Qatar,Lucas Mendes,DEF,Al Wakrah SC,Qatar,No
+B,Qatar,Homam Al-Amin,DEF,Cultural Leonesa,Spain,Yes
+B,Qatar,Ahmed Fathi,MID,Al Arabi SC,Qatar,No
+B,Qatar,Jassim Gaber,MID,Al Rayyan SC,Qatar,No
+B,Qatar,Assim Madibo,MID,Al Wakrah SC,Qatar,No
+B,Qatar,Abdulaziz Hatem,MID,Al Rayyan SC,Qatar,No
+B,Qatar,Karim Boudiaf,MID,Al Duhail SC,Qatar,No
+B,Qatar,Mohammed Mannai,MID,Al Shamal SC,Qatar,No
+B,Qatar,Al Moez Ali,FWD,Al Duhail SC,Qatar,No
+B,Qatar,Akram Afif,FWD,Al Sadd SC,Qatar,No
+B,Qatar,Tahsin Mohammed,FWD,Al Duhail SC,Qatar,No
+B,Qatar,Edmilson Junior,FWD,Al Duhail SC,Qatar,No
+B,Qatar,Ahmed Al-Janehi,FWD,Al Gharafa,Qatar,No
+B,Qatar,Ahmed Alaa,FWD,Al Rayyan SC,Qatar,No
+B,Qatar,Hassan Al-Haydos,FWD,Al Sadd SC,Qatar,No
+B,Qatar,Mohammed Muntari,FWD,Al Gharafa SC,Qatar,No
+B,Qatar,Yusuf Abdurisag,FWD,Al Wakrah SC,Qatar,No
+B,Switzerland,Marvin Keller,GK,Young Boys,Switzerland,No
+B,Switzerland,Gregor Kobel,GK,Borussia Dortmund,Germany,Yes
+B,Switzerland,Yvon Mvogo,GK,Lorient,France,Yes
+B,Switzerland,Manuel Akanji,DEF,Inter,Italy,Yes
+B,Switzerland,Aurele Amenda,DEF,Eintracht Frankfurt,Germany,Yes
+B,Switzerland,Eray Comert,DEF,Valencia,Spain,Yes
+B,Switzerland,Nico Elvedi,DEF,Borussia Monchengladbach,Germany,Yes
+B,Switzerland,Luca Jaquez,DEF,VfB Stuttgart,Germany,Yes
+B,Switzerland,Miro Muheim,DEF,Hamburg,Germany,Yes
+B,Switzerland,Ricardo Rodriguez,DEF,Real Betis,Spain,Yes
+B,Switzerland,Silvan Widmer,DEF,Mainz,Germany,Yes
+B,Switzerland,Michel Aebischer,MID,Pisa,Italy,Yes
+B,Switzerland,Christian Fassnacht,MID,Young Boys,Switzerland,No
+B,Switzerland,Remo Freuler,MID,Bologna,Italy,Yes
+B,Switzerland,Ardon Jashari,MID,Milan,Italy,Yes
+B,Switzerland,Johan Manzambi,MID,Freiburg,Germany,Yes
+B,Switzerland,Fabian Rieder,MID,Augsburg,Germany,Yes
+B,Switzerland,Djibril Sow,MID,Unattached,Unattached,N/A
+B,Switzerland,Ruben Vargas,MID,Sevilla,Spain,Yes
+B,Switzerland,Granit Xhaka,MID,Sunderland,England,Yes
+B,Switzerland,Denis Zakaria,MID,Monaco,France,Yes
+B,Switzerland,Zeki Amdouni,FWD,Burnley,England,Yes
+B,Switzerland,Breel Embolo,FWD,Rennes,France,Yes
+B,Switzerland,Cedric Itten,FWD,Fortuna Dusseldorf,Germany,Yes
+B,Switzerland,Dan Ndoye,FWD,Nottingham Forest,England,Yes
+B,Switzerland,Noah Okafor,FWD,Leeds United,England,Yes
+C,Brazil,Alisson,GK,Liverpool,England,Yes
+C,Brazil,Ederson,GK,Fenerbahce,Turkey,Yes
+C,Brazil,Weverton,GK,Gremio,Brazil,No
+C,Brazil,Alex Sandro,DEF,Flamengo,Brazil,No
+C,Brazil,Bremer,DEF,Juventus,Italy,Yes
+C,Brazil,Danilo,DEF,Flamengo,Brazil,No
+C,Brazil,Douglas Santos,DEF,Zenit Saint Petersburg,Russia,Yes
+C,Brazil,Gabriel,DEF,Arsenal,England,Yes
+C,Brazil,Roger Ibanez,DEF,Al-Ahli,Saudi Arabia,Yes
+C,Brazil,Leo Pereira,DEF,Flamengo,Brazil,No
+C,Brazil,Marquinhos,DEF,Paris Saint-Germain,France,Yes
+C,Brazil,Bruno Guimaraes,MID,Newcastle,England,Yes
+C,Brazil,Casemiro,MID,Manchester United,England,Yes
+C,Brazil,Danilo,MID,Botafogo,Brazil,No
+C,Brazil,Ederson,MID,Atalanta,Italy,Yes
+C,Brazil,Fabinho,MID,Al-Ittihad,Saudi Arabia,Yes
+C,Brazil,Lucas Paqueta,MID,Flamengo,Brazil,No
+C,Brazil,Endrick,FWD,Lyon,France,Yes
+C,Brazil,Gabriel Martinelli,FWD,Arsenal,England,Yes
+C,Brazil,Igor Thiago,FWD,Brentford,England,Yes
+C,Brazil,Luis Henrique,FWD,Zenit Saint Petersburg,Russia,Yes
+C,Brazil,Matheus Cunha,FWD,Manchester United,England,Yes
+C,Brazil,Neymar,FWD,Santos,Brazil,No
+C,Brazil,Raphinha,FWD,Barcelona,Spain,Yes
+C,Brazil,Rayan,FWD,Bournemouth,England,Yes
+C,Brazil,Vinicius Junior,FWD,Real Madrid,Spain,Yes
+C,Morocco,Yassine Bounou,GK,Al Hilal,Saudi Arabia,Yes
+C,Morocco,Munir El Kajoui,GK,RS Berkane,Morocco,No
+C,Morocco,Ahmed Reda Tagnaouti,GK,Asfar,Morocco,No
+C,Morocco,Noussair Mazraoui,DEF,Manchester United,England,Yes
+C,Morocco,Anass Salah-Eddine,DEF,PSV,Netherlands,Yes
+C,Morocco,Youssef Belammari,DEF,Al Ahly,Egypt,Yes
+C,Morocco,Achraf Hakimi,DEF,Paris Saint-Germain,France,Yes
+C,Morocco,Zakaria El Ouahdi,DEF,KRC Genk,Belgium,Yes
+C,Morocco,Chadi Riad,DEF,Crystal Palace,England,Yes
+C,Morocco,Marwane Saadane,DEF,Al Fateh,Saudi Arabia,Yes
+C,Morocco,Redouane Halhal,DEF,KV Mechelen,Belgium,Yes
+C,Morocco,Issa Diop,DEF,Fulham,England,Yes
+C,Morocco,Samir El Mourabet,MID,Strasbourg,France,Yes
+C,Morocco,Ayyoub Bouaddi,MID,Lille,France,Yes
+C,Morocco,Neil El Aynaoui,MID,AS Roma,Italy,Yes
+C,Morocco,Sofyan Amrabat,MID,Real Betis,Spain,Yes
+C,Morocco,Azzedine Ounahi,MID,Girona,Spain,Yes
+C,Morocco,Bilal El Khannouss,MID,Stuttgart,Germany,Yes
+C,Morocco,Ismael Saibari,MID,PSV,Netherlands,Yes
+C,Morocco,Amine Sbai,FWD,Angers,France,Yes
+C,Morocco,Chemsdine Talbi,FWD,Sunderland,England,Yes
+C,Morocco,Soufiane Rahimi,FWD,Al Ain,UAE,Yes
+C,Morocco,Ayoub El Kaabi,FWD,Olympiacos,Greece,Yes
+C,Morocco,Brahim Diaz,FWD,Real Madrid,Spain,Yes
+C,Morocco,Yassine Gessime,FWD,Strasbourg,France,Yes
+C,Morocco,Ayoube Amaimouni,FWD,Eintracht Frankfurt,Germany,Yes
+C,Haiti,Josue Duverger,GK,Cosmos Koblenz,Germany,Yes
+C,Haiti,Alexandre Pierre,GK,Sochaux,France,Yes
+C,Haiti,Johny Placide,GK,Bastia,France,Yes
+C,Haiti,Ricardo Ade,DEF,LDU Quito,Ecuador,Yes
+C,Haiti,Carlens Arcus,DEF,Angers,France,Yes
+C,Haiti,Hannes Delcroix,DEF,Lugano,Switzerland,Yes
+C,Haiti,Jean-Kevin Duverne,DEF,Nantes,France,Yes
+C,Haiti,Martin Experience,DEF,Nancy,France,Yes
+C,Haiti,Duke Lacroix,DEF,Colorado Springs Switchbacks,USA,Yes
+C,Haiti,Wilguens Paugain,DEF,Zulte Waregem,Belgium,Yes
+C,Haiti,Keeto Thermoncy,DEF,Young Boys,Switzerland,Yes
+C,Haiti,Garven Metusala,DEF,Colorado Springs Switchbacks FC,USA,Yes
+C,Haiti,Carl Fred Sainte,MID,El Paso Locomotive,USA,Yes
+C,Haiti,Jean-Ricner Bellegarde,MID,Wolverhampton Wanderers,England,Yes
+C,Haiti,Danley Jean Jacques,MID,Philadelphia Union,USA,Yes
+C,Haiti,Woodensky Pierre,MID,Violette AC,Haiti,No
+C,Haiti,Dominique Simon,MID,Tatran Presov,Slovakia,Yes
+C,Haiti,Josue Casimir,FWD,Auxerre,France,Yes
+C,Haiti,Louicius Deedson,FWD,FC Dallas,USA,Yes
+C,Haiti,Derrick Etienne Jr.,FWD,Toronto,Canada,Yes
+C,Haiti,Yassin Fortune,FWD,Vizela,Portugal,Yes
+C,Haiti,Wilson Isidor,FWD,Sunderland,England,Yes
+C,Haiti,Lenny Joseph,FWD,Ferencvaros,Hungary,Yes
+C,Haiti,Duckens Nazon,FWD,Esteghlal,Iran,Yes
+C,Haiti,Frantzdy Pierrot,FWD,AEK Athens,Greece,Yes
+C,Haiti,Ruben Providence,FWD,Almere City,Netherlands,Yes
+C,Scotland,Craig Gordon,GK,Hearts,Scotland,No
+C,Scotland,Angus Gunn,GK,Nottingham Forest,England,Yes
+C,Scotland,Liam Kelly,GK,Rangers,Scotland,No
+C,Scotland,Grant Hanley,DEF,Hibernian,Scotland,No
+C,Scotland,Jack Hendry,DEF,Al Ettifaq,Saudi Arabia,Yes
+C,Scotland,Aaron Hickey,DEF,Brentford,England,Yes
+C,Scotland,Dominic Hyam,DEF,Wrexham,England,Yes
+C,Scotland,Scott McKenna,DEF,Dinamo Zagreb,Croatia,Yes
+C,Scotland,Nathan Patterson,DEF,Everton,England,Yes
+C,Scotland,Anthony Ralston,DEF,Celtic,Scotland,No
+C,Scotland,Andy Robertson,DEF,Liverpool,England,Yes
+C,Scotland,John Souttar,DEF,Rangers,Scotland,No
+C,Scotland,Kieran Tierney,DEF,Celtic,Scotland,No
+C,Scotland,Ryan Christie,MID,Bournemouth,England,Yes
+C,Scotland,Findlay Curtis,MID,Rangers,Scotland,No
+C,Scotland,Lewis Ferguson,MID,Bologna,Italy,Yes
+C,Scotland,Ben Gannon-Doak,MID,Bournemouth,England,Yes
+C,Scotland,Tyler Fletcher,MID,Manchester United,England,Yes
+C,Scotland,John McGinn,MID,Aston Villa,England,Yes
+C,Scotland,Kenny McLean,MID,Norwich City,England,Yes
+C,Scotland,Scott McTominay,MID,Napoli,Italy,Yes
+C,Scotland,Che Adams,FWD,Torino,Italy,Yes
+C,Scotland,Lyndon Dykes,FWD,Birmingham City,England,Yes
+C,Scotland,George Hirst,FWD,Ipswich Town,England,Yes
+C,Scotland,Lawrence Shankland,FWD,Hearts,Scotland,No
+C,Scotland,Ross Stewart,FWD,Southampton,England,Yes
+D,United States,Matt Freese,GK,NYCFC,USA,No
+D,United States,Matt Turner,GK,New England Revolution,USA,No
+D,United States,Chris Brady,GK,Chicago Fire,USA,No
+D,United States,Chris Richards,DEF,Crystal Palace,England,Yes
+D,United States,Tim Ream,DEF,Charlotte FC,USA,No
+D,United States,Mark McKenzie,DEF,Toulouse,France,Yes
+D,United States,Auston Trusty,DEF,Celtic,Scotland,Yes
+D,United States,Miles Robinson,DEF,FC Cincinnati,USA,No
+D,United States,Antonee Robinson,DEF,Fulham,England,Yes
+D,United States,Sergino Dest,DEF,PSV Eindhoven,Netherlands,Yes
+D,United States,Alex Freeman,DEF,Villarreal,Spain,Yes
+D,United States,Joe Scally,DEF,Borussia Monchengladbach,Germany,Yes
+D,United States,Max Arfsten,DEF,Columbus Crew,USA,No
+D,United States,Tyler Adams,MID,Bournemouth,England,Yes
+D,United States,Weston McKennie,MID,Juventus,Italy,Yes
+D,United States,Cristian Roldan,MID,Seattle Sounders,USA,No
+D,United States,Sebastian Berhalter,MID,Vancouver Whitecaps,Canada,Yes
+D,United States,Christian Pulisic,MID,AC Milan,Italy,Yes
+D,United States,Tim Weah,MID,Marseille,France,Yes
+D,United States,Malik Tillman,MID,Bayer Leverkusen,Germany,Yes
+D,United States,Gio Reyna,MID,Borussia Monchengladbach,Germany,Yes
+D,United States,Brenden Aaronson,MID,Leeds United,England,Yes
+D,United States,Alejandro Zendejas,MID,Club America,Mexico,Yes
+D,United States,Folarin Balogun,FWD,Monaco,France,Yes
+D,United States,Ricardo Pepi,FWD,PSV Eindhoven,Netherlands,Yes
+D,United States,Haji Wright,FWD,Coventry City,England,Yes
+D,Paraguay,Roberto Fernandez,GK,Cerro Porteno,Paraguay,No
+D,Paraguay,Orlando Gill,GK,San Lorenzo,Argentina,Yes
+D,Paraguay,Gaston Olveira,GK,Olimpia,Paraguay,No
+D,Paraguay,Gustavo Velazquez,DEF,Cerro Porteno,Paraguay,No
+D,Paraguay,Omar Alderete,DEF,Sunderland,England,Yes
+D,Paraguay,Juan Caceres,DEF,Dynamo Moscow,Russia,Yes
+D,Paraguay,Fabian Balbuena,DEF,Gremio,Brazil,Yes
+D,Paraguay,Junior Alonso,DEF,Atletico Mineiro,Brazil,Yes
+D,Paraguay,Gustavo Gomez,DEF,Palmeiras,Brazil,Yes
+D,Paraguay,Jose Canale,DEF,Lanus,Argentina,Yes
+D,Paraguay,Alexandro Maidana,DEF,Talleres,Argentina,Yes
+D,Paraguay,Ramon Sosa,MID,Palmeiras,Brazil,Yes
+D,Paraguay,Diego Gomez,MID,Brighton and Hove Albion,England,Yes
+D,Paraguay,Miguel Almiron,MID,Atlanta United,USA,Yes
+D,Paraguay,Mauricio Magalhaes,MID,Palmeiras,Brazil,Yes
+D,Paraguay,Damian Bobadilla,MID,Sao Paulo,Brazil,Yes
+D,Paraguay,Braian Ojeda,MID,Orlando City,USA,Yes
+D,Paraguay,Matias Galarza,MID,Atlanta United,USA,Yes
+D,Paraguay,Andres Cubas,MID,Vancouver Whitecaps,Canada,Yes
+D,Paraguay,Alejandro Romero,MID,Al Ain,UAE,Yes
+D,Paraguay,Antonio Sanabria,FWD,Cremonese,Italy,Yes
+D,Paraguay,Alex Arce,FWD,Independiente Rivadavia,Argentina,Yes
+D,Paraguay,Julio Enciso,FWD,Strasbourg,France,Yes
+D,Paraguay,Gabriel Avalos,FWD,Independiente,Argentina,Yes
+D,Paraguay,Gustavo Caballero,FWD,Portsmouth,England,Yes
+D,Paraguay,Isidro Pitta,FWD,Red Bull Bragantino,Brazil,Yes
+D,Australia,Patrick Beach,GK,Melbourne City,Australia,No
+D,Australia,Paul Izzo,GK,Randers FC,Denmark,Yes
+D,Australia,Mathew Ryan,GK,Levante,Spain,Yes
+D,Australia,Aziz Behich,DEF,Melbourne City,Australia,No
+D,Australia,Jordan Bos,DEF,Feyenoord,Netherlands,Yes
+D,Australia,Cameron Burgess,DEF,Swansea City,England,Yes
+D,Australia,Alessandro Circati,DEF,Parma,Italy,Yes
+D,Australia,Milos Degenek,DEF,Apoel Nicosia,Cyprus,Yes
+D,Australia,Jason Geria,DEF,Albirex Niigata,Japan,Yes
+D,Australia,Lucas Herrington,DEF,Colorado Rapids,USA,Yes
+D,Australia,Jacob Italiano,DEF,Grazer AK,Austria,Yes
+D,Australia,Harry Souttar,DEF,Leicester,England,Yes
+D,Australia,Kai Trewin,DEF,New York City FC,USA,Yes
+D,Australia,Cameron Devlin,MID,Hearts,Scotland,Yes
+D,Australia,Ajdin Hrustic,MID,Heracles Almelo,Netherlands,Yes
+D,Australia,Jackson Irvine,MID,St Pauli,Germany,Yes
+D,Australia,Connor Metcalfe,MID,St Pauli,Germany,Yes
+D,Australia,Aiden O'Neill,MID,New York City FC,USA,Yes
+D,Australia,Paul Okon-Engstler,MID,Sydney FC,Australia,No
+D,Australia,Nestory Irankunda,FWD,Watford,England,Yes
+D,Australia,Mathew Leckie,FWD,Melbourne City,Australia,No
+D,Australia,Awer Mabil,FWD,Castellon,Spain,Yes
+D,Australia,Mohamed Toure,FWD,Norwich,England,Yes
+D,Australia,Nishan Velupillay,FWD,Melbourne Victory,Australia,No
+D,Australia,Cristian Volpato,FWD,Sassuolo,Italy,Yes
+D,Australia,Tete Yengi,FWD,Machida Zelvia,Japan,Yes
+D,Turkey,Altay Bayindir,GK,Manchester United,England,Yes
+D,Turkey,Mert Gunok,GK,Fenerbahce,Turkey,No
+D,Turkey,Ugurcan Cakir,GK,Galatasaray,Turkey,No
+D,Turkey,Abdulkerim Bardakci,DEF,Galatasaray,Turkey,No
+D,Turkey,Caglar Soyuncu,DEF,Fenerbahce,Turkey,No
+D,Turkey,Eren Elmali,DEF,Galatasaray,Turkey,No
+D,Turkey,Ferdi Kadioglu,DEF,Brighton & Hove Albion,England,Yes
+D,Turkey,Merih Demiral,DEF,Al Ahli,Saudi Arabia,Yes
+D,Turkey,Mert Muldur,DEF,Fenerbahce,Turkey,No
+D,Turkey,Ozan Kabak,DEF,Hoffenheim,Germany,Yes
+D,Turkey,Samet Akaydin,DEF,Caykur Rizespor,Turkey,No
+D,Turkey,Zeki Celik,DEF,AS Roma,Italy,Yes
+D,Turkey,Hakan Calhanoglu,MID,Inter,Italy,Yes
+D,Turkey,Ismail Yuksek,MID,Fenerbahce,Turkey,No
+D,Turkey,Kaan Ayhan,MID,Galatasaray,Turkey,No
+D,Turkey,Orkun Kokcu,MID,Besiktas,Turkey,No
+D,Turkey,Salih Ozcan,MID,Borussia Dortmund,Germany,Yes
+D,Turkey,Arda Guler,FWD,Real Madrid,Spain,Yes
+D,Turkey,Baris Alper Yilmaz,FWD,Galatasaray,Turkey,No
+D,Turkey,Can Uzun,FWD,Eintracht Frankfurt,Germany,Yes
+D,Turkey,Deniz Gul,FWD,FC Porto,Portugal,Yes
+D,Turkey,Irfan Can Kahveci,FWD,Kasimpasa,Turkey,No
+D,Turkey,Kenan Yildiz,FWD,Juventus,Italy,Yes
+D,Turkey,Kerem Akturkoglu,FWD,Fenerbahce,Turkey,No
+D,Turkey,Oguz Aydin,FWD,Fenerbahce,Turkey,No
+D,Turkey,Yunus Akgun,FWD,Galatasaray,Turkey,No
+E,Germany,Manuel Neuer,GK,Bayern Munich,Germany,No
+E,Germany,Oliver Baumann,GK,Hoffenheim,Germany,No
+E,Germany,Alexander Nubel,GK,Stuttgart,Germany,No
+E,Germany,Joshua Kimmich,DEF,Bayern Munich,Germany,No
+E,Germany,Nico Schlotterbeck,DEF,Borussia Dortmund,Germany,No
+E,Germany,David Raum,DEF,RB Leipzig,Germany,No
+E,Germany,Jonathan Tah,DEF,Bayern Munich,Germany,No
+E,Germany,Waldemar Anton,DEF,Borussia Dortmund,Germany,No
+E,Germany,Antonio Rudiger,DEF,Real Madrid,Spain,Yes
+E,Germany,Nathaniel Brown,DEF,Eintracht Frankfurt,Germany,No
+E,Germany,Malick Thiaw,DEF,Newcastle United,England,Yes
+E,Germany,Jamal Musiala,MID,Bayern Munich,Germany,No
+E,Germany,Florian Wirtz,MID,Liverpool,England,Yes
+E,Germany,Angelo Stiller,MID,Stuttgart,Germany,No
+E,Germany,Aleksandar Pavlovic,MID,Bayern Munich,Germany,No
+E,Germany,Leon Goretzka,MID,Bayern Munich,Germany,No
+E,Germany,Leroy Sane,MID,Galatasaray,Turkey,Yes
+E,Germany,Felix Nmecha,MID,Borussia Dortmund,Germany,No
+E,Germany,Nadiem Amiri,MID,Mainz,Germany,No
+E,Germany,Pascal Gross,MID,Brighton & Hove Albion,England,Yes
+E,Germany,Assan Ouedraogo,MID,RB Leipzig,Germany,No
+E,Germany,Kai Havertz,FWD,Arsenal,England,Yes
+E,Germany,Deniz Undav,FWD,Stuttgart,Germany,No
+E,Germany,Jamie Leweling,FWD,Stuttgart,Germany,No
+E,Germany,Nick Woltemade,FWD,Newcastle United,England,Yes
+E,Germany,Maximilian Beier,FWD,Borussia Dortmund,Germany,No
+E,Curacao,Tyrick Bodak,GK,SC Telstar,Netherlands,Yes
+E,Curacao,Trevor Doornbusch,GK,VVV-Venlo,Netherlands,Yes
+E,Curacao,Eloy Room,GK,Miami FC,USA,Yes
+E,Curacao,Riechedly Bazoer,DEF,Konyaspor,Turkey,Yes
+E,Curacao,Joshua Brenet,DEF,Kayserispor,Turkey,Yes
+E,Curacao,Roshon Van Eijma,DEF,RKC Waalwijk,Netherlands,Yes
+E,Curacao,Sherel Floranus,DEF,PEC Zwolle,Netherlands,Yes
+E,Curacao,Deveron Fonville,DEF,NEC Nijmegen,Netherlands,Yes
+E,Curacao,Jurien Gaari,DEF,Abha Club,UAE,Yes
+E,Curacao,Armando Obispo,DEF,PSV Eindhoven,Netherlands,Yes
+E,Curacao,Shurandy Sambo,DEF,Sparta Rotterdam,Netherlands,Yes
+E,Curacao,Juninho Bacuna,MID,FC Volendam,Netherlands,Yes
+E,Curacao,Leandro Bacuna,MID,Igdir,Turkey,Yes
+E,Curacao,Livano Comenencia,MID,FC Zurich,Switzerland,Yes
+E,Curacao,Kevin Felida,MID,FC Den Bosch,Netherlands,Yes
+E,Curacao,Ar'Jany Martha,MID,Rotherham United,England,Yes
+E,Curacao,Tyrese Noslin,MID,SC Telstar,Netherlands,Yes
+E,Curacao,Godfried Roemeratoe,MID,RKC Waalwijk,Netherlands,Yes
+E,Curacao,Jeremy Antonisse,FWD,AE Kifisia,Greece,Yes
+E,Curacao,Tahith Chong,FWD,Sheffield United,England,Yes
+E,Curacao,Kenji Gorre,FWD,Maccabi Haifa,Israel,Yes
+E,Curacao,Sontje Hansen,FWD,Middlesbrough,England,Yes
+E,Curacao,Gervane Kastaneer,FWD,Terengganu FC,Malaysia,Yes
+E,Curacao,Brandley Kuwas,FWD,FC Volendam,Netherlands,Yes
+E,Curacao,Jurgen Locadia,FWD,Miami FC,USA,Yes
+E,Curacao,Jearl Margaritha,FWD,SK Beveren,Belgium,Yes
+E,Ivory Coast,Yahia Fofana,GK,Caykur Rizespor,Turkey,Yes
+E,Ivory Coast,Mohamed Kone,GK,Charleroi,Belgium,Yes
+E,Ivory Coast,Alban Lafont,GK,Panathinaikos,Greece,Yes
+E,Ivory Coast,Emmanuel Agbadou,DEF,Besiktas,Turkey,Yes
+E,Ivory Coast,Clement Akpa,DEF,AJ Auxerre,France,Yes
+E,Ivory Coast,Ousmane Diomande,DEF,Sporting CP,Portugal,Yes
+E,Ivory Coast,Guela Doue,DEF,Strasbourg,France,Yes
+E,Ivory Coast,Ghislain Konan,DEF,Gil Vicente,Portugal,Yes
+E,Ivory Coast,Odilon Kossounou,DEF,Atalanta BC,Italy,Yes
+E,Ivory Coast,Evan Ndicka,DEF,AS Roma,Italy,Yes
+E,Ivory Coast,Wilfried Singo,DEF,Galatasaray,Turkey,Yes
+E,Ivory Coast,Seko Fofana,MID,Porto,Portugal,Yes
+E,Ivory Coast,Parfait Guiagon,MID,Charleroi,Belgium,Yes
+E,Ivory Coast,Christ Inao Oulai,MID,Trabzonspor,Turkey,Yes
+E,Ivory Coast,Franck Kessie,MID,Al-Ahli,Saudi Arabia,Yes
+E,Ivory Coast,Ibrahim Sangare,MID,Nottingham Forest,England,Yes
+E,Ivory Coast,Jean-Michael Seri,MID,Maribor,Slovenia,Yes
+E,Ivory Coast,Simon Adingra,FWD,Monaco,France,Yes
+E,Ivory Coast,Ange-Yoan Bonny,FWD,Inter Milan,Italy,Yes
+E,Ivory Coast,Amad Diallo,FWD,Manchester United,England,Yes
+E,Ivory Coast,Oumar Diakite,FWD,Cercle Brugge,Belgium,Yes
+E,Ivory Coast,Yan Diomande,FWD,RB Leipzig,Germany,Yes
+E,Ivory Coast,Evann Guessand,FWD,Crystal Palace,England,Yes
+E,Ivory Coast,Nicolas Pepe,FWD,Villarreal,Spain,Yes
+E,Ivory Coast,Bazoumana Toure,FWD,TSG Hoffenheim,Germany,Yes
+E,Ivory Coast,Elye Wahi,FWD,OGC Nice,France,Yes
+E,Ecuador,Hernan Galindez,GK,Huracan,Argentina,Yes
+E,Ecuador,Moises Ramirez,GK,AE Kifisia,Greece,Yes
+E,Ecuador,Gonzalo Valle,GK,LDU Quito,Ecuador,No
+E,Ecuador,Piero Hincapie,DEF,Arsenal,England,Yes
+E,Ecuador,Willian Pacho,DEF,PSG,France,Yes
+E,Ecuador,Pervis Estupinan,DEF,AC Milan,Italy,Yes
+E,Ecuador,Felix Torres,DEF,Internacional,Brazil,Yes
+E,Ecuador,Joel Ordonez,DEF,Club Brugge,Belgium,Yes
+E,Ecuador,Jackson Porozo,DEF,Tijuana,Mexico,Yes
+E,Ecuador,Angelo Preciado,DEF,Atletico Mineiro,Brazil,Yes
+E,Ecuador,Moises Caicedo,MID,Chelsea,England,Yes
+E,Ecuador,Alan Franco,MID,Atletico Mineiro,Brazil,Yes
+E,Ecuador,Kendry Paez,MID,River Plate,Argentina,Yes
+E,Ecuador,Pedro Vite,MID,UNAM,Mexico,Yes
+E,Ecuador,Jordy Alcivar,MID,Independiente,Argentina,Yes
+E,Ecuador,Denil Castillo,MID,FC Midtjylland,Denmark,Yes
+E,Ecuador,Yaimar Medina,MID,Genk,Belgium,Yes
+E,Ecuador,Enner Valencia,FWD,Pachuca,Mexico,Yes
+E,Ecuador,Gonzalo Plata,FWD,Flamengo,Brazil,Yes
+E,Ecuador,Alan Minda,FWD,Atletico Mineiro,Brazil,Yes
+E,Ecuador,John Yeboah,FWD,Venezia,Italy,Yes
+E,Ecuador,Kevin Rodriguez,FWD,Union Saint-Gilloise,Belgium,Yes
+E,Ecuador,Jordy Caicedo,FWD,Atlas,Mexico,Yes
+E,Ecuador,Nilson Angulo,FWD,Sunderland,England,Yes
+E,Ecuador,Anthony Valencia,FWD,Royal Antwerp,Belgium,Yes
+E,Ecuador,Jeremy Arevalo,FWD,Stuttgart,Germany,Yes
+F,Netherlands,Bart Verbruggen,GK,Brighton,England,Yes
+F,Netherlands,Robin Roefs,GK,Sunderland,England,Yes
+F,Netherlands,Mark Flekken,GK,Bayer Leverkusen,Germany,Yes
+F,Netherlands,Lutsharel Geertruida,DEF,Sunderland,England,Yes
+F,Netherlands,Micky van de Ven,DEF,Tottenham,England,Yes
+F,Netherlands,Virgil van Dijk,DEF,Liverpool,England,Yes
+F,Netherlands,Nathan Ake,DEF,Manchester City,England,Yes
+F,Netherlands,Jorrel Hato,DEF,Chelsea,England,Yes
+F,Netherlands,Denzel Dumfries,DEF,Inter,Italy,Yes
+F,Netherlands,Jan Paul van Hecke,DEF,Brighton,England,Yes
+F,Netherlands,Ryan Gravenberch,MID,Liverpool,England,Yes
+F,Netherlands,Tijjani Reijnders,MID,Manchester City,England,Yes
+F,Netherlands,Frenkie de Jong,MID,Barcelona,Spain,Yes
+F,Netherlands,Teun Koopmeiners,MID,Juventus,Italy,Yes
+F,Netherlands,Marten de Roon,MID,Atalanta,Italy,Yes
+F,Netherlands,Quinten Timber,MID,Marseille,France,Yes
+F,Netherlands,Guus Til,MID,PSV Eindhoven,Netherlands,No
+F,Netherlands,Mats Wieffer,MID,Brighton,England,Yes
+F,Netherlands,Brian Brobbey,FWD,Sunderland,England,Yes
+F,Netherlands,Memphis Depay,FWD,Corinthians,Brazil,Yes
+F,Netherlands,Cody Gakpo,FWD,Liverpool,England,Yes
+F,Netherlands,Justin Kluivert,FWD,Bournemouth,England,Yes
+F,Netherlands,Noa Lang,FWD,Galatasaray,Turkey,Yes
+F,Netherlands,Donyell Malen,FWD,Roma,Italy,Yes
+F,Netherlands,Crysencio Summerville,FWD,West Ham,England,Yes
+F,Netherlands,Wout Weghorst,FWD,Ajax,Netherlands,No
+F,Japan,Zion Suzuki,GK,Parma,Italy,Yes
+F,Japan,Keisuke Osako,GK,Sanfrecce Hiroshima,Japan,No
+F,Japan,Tomoki Hayakawa,GK,Kashima Antlers,Japan,No
+F,Japan,Yuta Nagatomo,DEF,FC Tokyo,Japan,No
+F,Japan,Shogo Taniguchi,DEF,Sint-Truiden,Belgium,Yes
+F,Japan,Ko Itakura,DEF,Ajax,Netherlands,Yes
+F,Japan,Tsuyoshi Watanabe,DEF,Feyenoord,Netherlands,Yes
+F,Japan,Takehiro Tomiyasu,DEF,Ajax,Netherlands,Yes
+F,Japan,Hiroki Ito,DEF,Bayern Munich,Germany,Yes
+F,Japan,Ayumu Seko,DEF,Le Havre,France,Yes
+F,Japan,Yukinari Sugawara,DEF,Werder Bremen,Germany,Yes
+F,Japan,Junnosuke Suzuki,MID,Copenhagen,Denmark,Yes
+F,Japan,Junya Ito,MID,Genk,Belgium,Yes
+F,Japan,Daichi Kamada,MID,Crystal Palace,England,Yes
+F,Japan,Ritsu Doan,MID,Eintracht Frankfurt,Germany,Yes
+F,Japan,Ao Tanaka,MID,Leeds United,England,Yes
+F,Japan,Keito Nakamura,MID,Reims,France,Yes
+F,Japan,Kaishu Sano,MID,Mainz,Germany,Yes
+F,Japan,Takefusa Kubo,MID,Real Sociedad,Spain,Yes
+F,Japan,Yuito Suzuki,MID,Freiburg,Germany,Yes
+F,Japan,Koki Ogawa,FWD,NEC Nijmegen,Netherlands,Yes
+F,Japan,Daizen Maeda,FWD,Celtic,Scotland,Yes
+F,Japan,Ayase Ueda,FWD,Feyenoord,Netherlands,Yes
+F,Japan,Kento Shiogai,FWD,VfL Wolfsburg,Germany,Yes
+F,Japan,Keisuke Goto,FWD,Sint-Truiden,Belgium,Yes
+F,Japan,Shuto Machino,FWD,Borussia Monchengladbach,Germany,Yes
+F,Sweden,Viktor Johansson,GK,Stoke City,England,Yes
+F,Sweden,Kristoffer Nordfeldt,GK,AIK Fotboll,Sweden,No
+F,Sweden,Jacob Widell Zetterstrom,GK,Derby County,England,Yes
+F,Sweden,Hjalmar Ekdal,DEF,Burnley,England,Yes
+F,Sweden,Gabriel Gudmundsson,DEF,Leeds United,England,Yes
+F,Sweden,Isak Hien,DEF,Atalanta,Italy,Yes
+F,Sweden,Herman Johansson,DEF,FC Dallas,USA,Yes
+F,Sweden,Gustaf Lagerbielke,DEF,Braga,Portugal,Yes
+F,Sweden,Victor Lindelof,DEF,Aston Villa,England,Yes
+F,Sweden,Eric Smith,DEF,St. Pauli,Germany,Yes
+F,Sweden,Carl Starfelt,DEF,Celta Vigo,Spain,Yes
+F,Sweden,Elliot Stroud,DEF,Mjallby AIF,Sweden,No
+F,Sweden,Daniel Svensson,DEF,Borussia Dortmund,Germany,Yes
+F,Sweden,Taha Ali,MID,Malmo FF,Sweden,No
+F,Sweden,Yasin Ayari,MID,Brighton & Hove Albion,England,Yes
+F,Sweden,Lucas Bergvall,MID,Tottenham Hotspur,England,Yes
+F,Sweden,Jesper Karlstrom,MID,Udinese,Italy,Yes
+F,Sweden,Benjamin Nygren,MID,Celtic,Scotland,Yes
+F,Sweden,Ken Sema,MID,Pafos,Cyprus,Yes
+F,Sweden,Mattias Svanberg,MID,VfL Wolfsburg,Germany,Yes
+F,Sweden,Besfort Zeneli,MID,Union Saint-Gilloise,Belgium,Yes
+F,Sweden,Alexander Bernhardsson,FWD,Holstein Kiel,Germany,Yes
+F,Sweden,Anthony Elanga,FWD,Newcastle United,England,Yes
+F,Sweden,Viktor Gyokeres,FWD,Arsenal,England,Yes
+F,Sweden,Alexander Isak,FWD,Liverpool,England,Yes
+F,Sweden,Gustaf Nilsson,FWD,Club Brugge,Belgium,Yes
+F,Tunisia,Sabri Ben Hessen,GK,Etoile Sahel,Tunisia,No
+F,Tunisia,Abdelmouhib Chamakh,GK,Club Africain,Tunisia,No
+F,Tunisia,Aymen Dahmen,GK,CS Sfaxien,Tunisia,No
+F,Tunisia,Ali Abdi,DEF,Nice,France,Yes
+F,Tunisia,Adem Arous,DEF,Kasimpasa,Turkey,Yes
+F,Tunisia,Mohamed Amine Ben Hamida,DEF,Esperance,Tunisia,No
+F,Tunisia,Dylan Bronn,DEF,Servette Geneva,Switzerland,Yes
+F,Tunisia,Raed Chikhaoui,DEF,US Monastir,Tunisia,No
+F,Tunisia,Moutaz Neffati,DEF,Norrkoping,Sweden,Yes
+F,Tunisia,Omar Rekik,DEF,NK Maribor,Slovenia,Yes
+F,Tunisia,Montassar Talbi,DEF,Lorient,France,Yes
+F,Tunisia,Yan Valery,DEF,Young Boys Berne,Switzerland,Yes
+F,Tunisia,Mortadha Ben Ouanes,MID,Kasimpasa,Turkey,Yes
+F,Tunisia,Anis Ben Slimane,MID,Norwich City,England,Yes
+F,Tunisia,Ismael Gharbi,MID,FC Augsburg,Germany,Yes
+F,Tunisia,Rani Khedira,MID,Union Berlin,Germany,Yes
+F,Tunisia,Mohamed Hadj Mahmoud,MID,Lugano,Switzerland,Yes
+F,Tunisia,Hannibal Mejbri,MID,Burnley,England,Yes
+F,Tunisia,Ellyes Skhiri,MID,Eintracht Frankfurt,Germany,Yes
+F,Tunisia,Elias Achouri,FWD,FC Copenhagen,Denmark,Yes
+F,Tunisia,Khalil Ayari,FWD,Paris Saint-Germain,France,Yes
+F,Tunisia,Firas Chaouat,FWD,Club Africain,Tunisia,No
+F,Tunisia,Rayan Elloumi,FWD,Vancouver Whitecaps,Canada,Yes
+F,Tunisia,Hazem Mastouri,FWD,Dynamo Makhachkala,Russia,Yes
+F,Tunisia,Elias Saad,FWD,Hannover 96,Germany,Yes
+F,Tunisia,Sebastian Tounekti,FWD,Celtic,Scotland,Yes
+G,Belgium,Thibaut Courtois,GK,Real Madrid,Spain,Yes
+G,Belgium,Senne Lammens,GK,Manchester United,England,Yes
+G,Belgium,Mike Penders,GK,Strasbourg,France,Yes
+G,Belgium,Timothy Castagne,DEF,Fulham,England,Yes
+G,Belgium,Zeno Debast,DEF,Sporting CP,Portugal,Yes
+G,Belgium,Maxim De Cuyper,DEF,Brighton,England,Yes
+G,Belgium,Koni De Winter,DEF,Milan,Italy,Yes
+G,Belgium,Brandon Mechele,DEF,Club Brugge,Belgium,No
+G,Belgium,Thomas Meunier,DEF,Lille,France,Yes
+G,Belgium,Nathan Ngoy,DEF,Lille,France,Yes
+G,Belgium,Joaquin Seys,DEF,Club Brugge,Belgium,No
+G,Belgium,Arthur Theate,DEF,Eintracht Frankfurt,Germany,Yes
+G,Belgium,Kevin De Bruyne,MID,Napoli,Italy,Yes
+G,Belgium,Amadou Onana,MID,Aston Villa,England,Yes
+G,Belgium,Nicolas Raskin,MID,Rangers,Scotland,Yes
+G,Belgium,Youri Tielemans,MID,Aston Villa,England,Yes
+G,Belgium,Hans Vanaken,MID,Club Brugge,Belgium,No
+G,Belgium,Axel Witsel,MID,Girona,Spain,Yes
+G,Belgium,Diego Moreira,MID,Strasbourg,France,Yes
+G,Belgium,Alexis Saelemaekers,MID,Milan,Italy,Yes
+G,Belgium,Charles De Ketelaere,FWD,Atalanta,Italy,Yes
+G,Belgium,Jeremy Doku,FWD,Manchester City,England,Yes
+G,Belgium,Matias Fernandez Pardo,FWD,Lille,France,Yes
+G,Belgium,Romelu Lukaku,FWD,Napoli,Italy,Yes
+G,Belgium,Dodi Lukebakio,FWD,Benfica,Portugal,Yes
+G,Belgium,Leandro Trossard,FWD,Arsenal,England,Yes
+G,Egypt,Mohamed El Shenawy,GK,Al Ahly,Egypt,No
+G,Egypt,Mostafa Shobeir,GK,Al Ahly,Egypt,No
+G,Egypt,El Mahdi Soliman,GK,Zamalek,Egypt,No
+G,Egypt,Mohamed Alaa,GK,El Gouna,Egypt,No
+G,Egypt,Mohamed Hany,DEF,Al Ahly,Egypt,No
+G,Egypt,Tarek Alaa,DEF,Zed,Egypt,No
+G,Egypt,Hamdy Fathy,DEF,Al Wakrah,Qatar,Yes
+G,Egypt,Rami Rabia,DEF,Al Ain,UAE,Yes
+G,Egypt,Yasser Ibrahim,DEF,Al Ahly,Egypt,No
+G,Egypt,Hossam Abdelmaguid,DEF,Zamalek,Egypt,No
+G,Egypt,Mohamed Abdelmonem,DEF,Nice,France,Yes
+G,Egypt,Ahmed Fatouh,DEF,Zamalek,Egypt,No
+G,Egypt,Karim Hafez,DEF,Pyramids,Egypt,No
+G,Egypt,Marwan Ateya,MID,Al Ahly,Egypt,No
+G,Egypt,Mohanad Lahseen,MID,Pyramids,Egypt,No
+G,Egypt,Nabil Emad,MID,Al Najma,Saudi Arabia,Yes
+G,Egypt,Mahmoud Saber,MID,Zed,Egypt,No
+G,Egypt,Ahmed Zizo,MID,Al Ahly,Egypt,No
+G,Egypt,Imam Ashour,MID,Al Ahly,Egypt,No
+G,Egypt,Mostafa Ziko,MID,Pyramids,Egypt,No
+G,Egypt,Mahmoud Trezeguet,MID,Al Ahly,Egypt,No
+G,Egypt,Ibrahim Adel,MID,Nordsjaelland,Denmark,Yes
+G,Egypt,Haissem Hassan,MID,Real Oviedo,Spain,Yes
+G,Egypt,Omar Marmoush,FWD,Manchester City,England,Yes
+G,Egypt,Mohamed Salah,FWD,Liverpool,England,Yes
+G,Egypt,Hamza Abdelkarim,FWD,Barcelona B,Spain,Yes
+G,Iran,Alireza Beiranvand,GK,Tractor,Iran,No
+G,Iran,Seyed Hossein Hosseini,GK,Sepahan,Iran,No
+G,Iran,Payam Niazmand,GK,Persepolis,Iran,No
+G,Iran,Danial Eiri,DEF,Zob Ahan Esfahan,Iran,No
+G,Iran,Ehsan Hajsafi,DEF,Sepahan,Iran,No
+G,Iran,Saleh Hardani,DEF,Esteghlal,Iran,No
+G,Iran,Hossein Kanaani,DEF,Persepolis,Iran,No
+G,Iran,Shoja Khalilzadeh,DEF,Tractor,Iran,No
+G,Iran,Milad Mohammadi,DEF,Persepolis,Iran,No
+G,Iran,Ali Nemati,DEF,Foolad,Iran,No
+G,Iran,Ramin Rezaeian,DEF,Foolad,Iran,No
+G,Iran,Rouzbeh Cheshmi,MID,Esteghlal,Iran,No
+G,Iran,Saeid Ezatolahi,MID,Shabab Al Ahli,UAE,Yes
+G,Iran,Mehdi Ghaedi,MID,Al Nasr,UAE,Yes
+G,Iran,Saman Ghoddos,MID,Kalba,UAE,Yes
+G,Iran,Mohammad Ghorbani,MID,Al Wahda,UAE,Yes
+G,Iran,Alireza Jahanbakhsh,MID,Dender,Belgium,Yes
+G,Iran,Mohammad Mohebi,MID,Rostov,Russia,Yes
+G,Iran,Amir Mohammad Razzaghinia,MID,Esteghlal,Iran,No
+G,Iran,Mehdi Torabi,MID,Tractor,Iran,No
+G,Iran,Aria Yousefi,MID,Sepahan,Iran,No
+G,Iran,Ali Alipour,FWD,Persepolis,Iran,No
+G,Iran,Dennis Dargahi,FWD,Standard Liege,Belgium,Yes
+G,Iran,Amirhossein Hosseinzadeh,FWD,Tractor,Iran,No
+G,Iran,Mehdi Taremi,FWD,Olympiacos,Greece,Yes
+G,Iran,Shahriar Moghanlou,FWD,Kalba,UAE,Yes
+G,New Zealand,Max Crocombe,GK,Millwall,England,Yes
+G,New Zealand,Alex Paulsen,GK,Lechia Gdansk,Poland,Yes
+G,New Zealand,Michael Woud,GK,Auckland FC,New Zealand,No
+G,New Zealand,Tim Payne,DEF,Wellington Phoenix,New Zealand,No
+G,New Zealand,Francis De Vries,DEF,Auckland FC,New Zealand,No
+G,New Zealand,Tyler Bindon,DEF,Nottingham Forest,England,Yes
+G,New Zealand,Michael Boxall,DEF,Minnesota United,USA,Yes
+G,New Zealand,Liberato Cacace,DEF,Wrexham,England,Yes
+G,New Zealand,Nando Pijnaker,DEF,Auckland FC,New Zealand,No
+G,New Zealand,Finn Surman,DEF,Portland Timbers,USA,Yes
+G,New Zealand,Callan Elliot,DEF,Auckland FC,New Zealand,No
+G,New Zealand,Tommy Smith,DEF,Braintree Town,England,Yes
+G,New Zealand,Ben Old,DEF,Saint-Etienne,France,Yes
+G,New Zealand,Joe Bell,MID,Viking FK,Norway,Yes
+G,New Zealand,Marko Stamenic,MID,Swansea,England,Yes
+G,New Zealand,Sarpreet Singh,MID,Wellington Phoenix,New Zealand,No
+G,New Zealand,Alex Rufer,MID,Wellington Phoenix,New Zealand,No
+G,New Zealand,Ryan Thomas,MID,PEC Zwolle,Netherlands,Yes
+G,New Zealand,Logan Rogerson,MID,Auckland FC,New Zealand,No
+G,New Zealand,Chris Wood,FWD,Nottingham Forest,England,Yes
+G,New Zealand,Eli Just,FWD,Motherwell,Scotland,Yes
+G,New Zealand,Kosta Barbarouses,FWD,Western Sydney Wanderers,Australia,Yes
+G,New Zealand,Ben Waine,FWD,Port Vale,England,Yes
+G,New Zealand,Callum McCowatt,FWD,Silkeborg,Denmark,Yes
+G,New Zealand,Jesse Randall,FWD,Auckland FC,New Zealand,No
+G,New Zealand,Lachlan Bayliss,FWD,Newcastle Jets,Australia,Yes
+H,Spain,Unai Simon,GK,Athletic Club,Spain,No
+H,Spain,David Raya,GK,Arsenal,England,Yes
+H,Spain,Joan Garcia,GK,Barcelona,Spain,No
+H,Spain,Marc Cucurella,DEF,Chelsea,England,Yes
+H,Spain,Alex Grimaldo,DEF,Bayer Leverkusen,Germany,Yes
+H,Spain,Pau Cubarsi,DEF,Barcelona,Spain,No
+H,Spain,Aymeric Laporte,DEF,Athletic Club,Spain,No
+H,Spain,Marc Pubill,DEF,Atletico Madrid,Spain,No
+H,Spain,Eric Garcia,DEF,Barcelona,Spain,No
+H,Spain,Marcos Llorente,DEF,Atletico Madrid,Spain,No
+H,Spain,Pedro Porro,DEF,Tottenham,England,Yes
+H,Spain,Pedri,MID,Barcelona,Spain,No
+H,Spain,Fabian Ruiz,MID,PSG,France,Yes
+H,Spain,Martin Zubimendi,MID,Arsenal,England,Yes
+H,Spain,Gavi,MID,Barcelona,Spain,No
+H,Spain,Rodri,MID,Manchester City,England,Yes
+H,Spain,Alex Baena,MID,Atletico Madrid,Spain,No
+H,Spain,Mikel Merino,MID,Arsenal,England,Yes
+H,Spain,Mikel Oyarzabal,FWD,Real Sociedad,Spain,No
+H,Spain,Dani Olmo,FWD,Barcelona,Spain,No
+H,Spain,Nico Williams,FWD,Athletic Club,Spain,No
+H,Spain,Yeremy Pino,FWD,Crystal Palace,England,Yes
+H,Spain,Ferran Torres,FWD,Barcelona,Spain,No
+H,Spain,Borja Iglesias,FWD,Celta Vigo,Spain,No
+H,Spain,Victor Munoz,FWD,Osasuna,Spain,No
+H,Spain,Lamine Yamal,FWD,Barcelona,Spain,No
+H,Cape Verde,Carlos dos Santos,GK,San Diego,USA,Yes
+H,Cape Verde,Marcio Rosa,GK,Montana 1921,Germany,Yes
+H,Cape Verde,Vozinha,GK,Chaves,Portugal,Yes
+H,Cape Verde,Sidny Cabral,DEF,Benfica,Portugal,Yes
+H,Cape Verde,Diney Borges,DEF,Al Bataeh,UAE,Yes
+H,Cape Verde,Logan Costa,DEF,Villarreal,Spain,Yes
+H,Cape Verde,Roberto Lopes,DEF,Shamrock Rovers,Ireland,Yes
+H,Cape Verde,Steven Moreira,DEF,Columbus Crew,USA,Yes
+H,Cape Verde,Wagner Pina,DEF,Trabzonspor,Turkey,Yes
+H,Cape Verde,Kelvin Pires,DEF,SJK Seinajoki,Finland,Yes
+H,Cape Verde,Stopira,DEF,Torreense,Portugal,Yes
+H,Cape Verde,Telmo Arcanjo,MID,Vitoria Guimaraes,Portugal,Yes
+H,Cape Verde,Deroy Duarte,MID,Ludogorets,Bulgaria,Yes
+H,Cape Verde,Laros Duarte,MID,Puskas Akademia,Hungary,Yes
+H,Cape Verde,Joao Paulo Fernandes,MID,Otelul Galati,Romania,Yes
+H,Cape Verde,Jamiro Monteiro,MID,PEC Zwolle,Netherlands,Yes
+H,Cape Verde,Kevin Pina,MID,FK Krasnodar,Russia,Yes
+H,Cape Verde,Yannick Semedo,MID,Farense,Portugal,Yes
+H,Cape Verde,Gilson Benchimol,FWD,Akron Tolyatti,Russia,Yes
+H,Cape Verde,Jovane Cabral,FWD,Estrela da Amadora,Portugal,Yes
+H,Cape Verde,Dailon Livramento,FWD,Casa Pia,Portugal,Yes
+H,Cape Verde,Ryan Mendes,FWD,Igdir,Turkey,Yes
+H,Cape Verde,Nuno da Costa,FWD,Istanbul Basaksehir,Turkey,Yes
+H,Cape Verde,Garry Rodrigues,FWD,Apollon Limassol,Cyprus,Yes
+H,Cape Verde,Willy Semedo,FWD,Omonia Nicosia,Cyprus,Yes
+H,Cape Verde,Helio Varela,FWD,Maccabi Tel Aviv,Israel,Yes
+H,Saudi Arabia,Mohammed Al Owais,GK,Al Ula,Saudi Arabia,No
+H,Saudi Arabia,Nawaf Al Aqidi,GK,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Ahmed Al Kassar,GK,Al Qadsiah,Saudi Arabia,No
+H,Saudi Arabia,Abdulelah Al Amri,DEF,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Hassan Tambakti,DEF,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Jehad Thikri,DEF,Al Qadsiah,Saudi Arabia,No
+H,Saudi Arabia,Ali Lajami,DEF,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Hassan Kadesh,DEF,Al Ittihad,Saudi Arabia,No
+H,Saudi Arabia,Saud Abdulhamid,DEF,Lens,France,Yes
+H,Saudi Arabia,Mohammed Abu Al Shamat,DEF,Al Qadsiah,Saudi Arabia,No
+H,Saudi Arabia,Ali Majrashi,DEF,Al Ahli,Saudi Arabia,No
+H,Saudi Arabia,Moteb Al Harbi,DEF,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Nawaf Boushal,DEF,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Sultan Mandash,DEF,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Mohammed Kanno,MID,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Abdullah Al Khaibari,MID,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Ziyad Al Johani,MID,Al Ahli,Saudi Arabia,No
+H,Saudi Arabia,Nasser Al Dawsari,MID,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Musab Al Juwayr,MID,Al Qadsiah,Saudi Arabia,No
+H,Saudi Arabia,Alaa Al Hajji,MID,Neom,Saudi Arabia,No
+H,Saudi Arabia,Salem Al Dawsari,MID,Al Hilal,Saudi Arabia,No
+H,Saudi Arabia,Khalid Al Ghannam,MID,Al Ettifaq,Saudi Arabia,No
+H,Saudi Arabia,Ayman Yahya,MID,Al Nassr,Saudi Arabia,No
+H,Saudi Arabia,Firas Al Buraikan,FWD,Al Ahli,Saudi Arabia,No
+H,Saudi Arabia,Saleh Al Shehri,FWD,Al Ittihad,Saudi Arabia,No
+H,Saudi Arabia,Abdullah Al Hamdan,FWD,Al Nassr,Saudi Arabia,No
+H,Uruguay,Sergio Rochet,GK,Internacional,Brazil,Yes
+H,Uruguay,Fernando Muslera,GK,Estudiantes,Argentina,Yes
+H,Uruguay,Santiago Mele,GK,Monterrey,Mexico,Yes
+H,Uruguay,Guillermo Varela,DEF,Flamengo,Brazil,Yes
+H,Uruguay,Ronald Araujo,DEF,Barcelona,Spain,Yes
+H,Uruguay,Jose Maria Gimenez,DEF,Atletico Madrid,Spain,Yes
+H,Uruguay,Santiago Bueno,DEF,Wolverhampton Wanderers,England,Yes
+H,Uruguay,Sebastian Caceres,DEF,America,Mexico,Yes
+H,Uruguay,Mathias Olivera,DEF,Napoli,Italy,Yes
+H,Uruguay,Joaquin Piquerez,DEF,Palmeiras,Brazil,Yes
+H,Uruguay,Matias Vina,DEF,River Plate,Argentina,Yes
+H,Uruguay,Juan Manuel Sanabria,DEF,Real Salt Lake,USA,Yes
+H,Uruguay,Manuel Ugarte,MID,Manchester United,England,Yes
+H,Uruguay,Emiliano Martinez,MID,Palmeiras,Brazil,Yes
+H,Uruguay,Rodrigo Bentancur,MID,Tottenham Hotspur,England,Yes
+H,Uruguay,Federico Valverde,MID,Real Madrid,Spain,Yes
+H,Uruguay,Agustin Canobbio,MID,Fluminense,Brazil,Yes
+H,Uruguay,Giorgian de Arrascaeta,MID,Flamengo,Brazil,Yes
+H,Uruguay,Nicholas de la Cruz,MID,Flamengo,Brazil,Yes
+H,Uruguay,Facundo Pellistri,MID,Panathinaikos,Greece,Yes
+H,Uruguay,Rodrigo Zalazar,MID,Braga,Portugal,Yes
+H,Uruguay,Maxi Araujo,MID,Sporting CP,Portugal,Yes
+H,Uruguay,Brian Rodriguez,MID,America,Mexico,Yes
+H,Uruguay,Rodrigo Aguirre,FWD,UANL,Mexico,Yes
+H,Uruguay,Federico Vinas,FWD,Real Oviedo,Spain,Yes
+H,Uruguay,Darwin Nunez,FWD,Al Hilal,Saudi Arabia,Yes
+I,France,Mike Maignan,GK,AC Milan,Italy,Yes
+I,France,Robin Risser,GK,Lens,France,No
+I,France,Brice Samba,GK,Rennes,France,No
+I,France,Malo Gusto,DEF,Chelsea,England,Yes
+I,France,Maxence Lacroix,DEF,Crystal Palace,England,Yes
+I,France,Jules Kounde,DEF,Barcelona,Spain,Yes
+I,France,Lucas Digne,DEF,Aston Villa,England,Yes
+I,France,Ibrahima Konate,DEF,Liverpool,England,Yes
+I,France,William Saliba,DEF,Arsenal,England,Yes
+I,France,Dayot Upamecano,DEF,Bayern Munich,Germany,Yes
+I,France,Lucas Hernandez,DEF,Paris Saint-Germain,France,No
+I,France,Theo Hernandez,DEF,Al Hilal,Saudi Arabia,Yes
+I,France,Aurelien Tchouameni,MID,Real Madrid,Spain,Yes
+I,France,Adrien Rabiot,MID,AC Milan,Italy,Yes
+I,France,N'Golo Kante,MID,Fenerbahce,Turkey,Yes
+I,France,Manu Kone,MID,Roma,Italy,Yes
+I,France,Warren Zaire-Emery,MID,Paris Saint-Germain,France,No
+I,France,Ousmane Dembele,FWD,Paris Saint-Germain,France,No
+I,France,Bradley Barcola,FWD,Paris Saint-Germain,France,No
+I,France,Jean-Philippe Mateta,FWD,Crystal Palace,England,Yes
+I,France,Rayan Cherki,FWD,Manchester City,England,Yes
+I,France,Marcus Thuram,FWD,Inter Milan,Italy,Yes
+I,France,Maghnes Akliouche,FWD,Monaco,France,No
+I,France,Desire Doue,FWD,Paris Saint-Germain,France,No
+I,France,Kylian Mbappe,FWD,Real Madrid,Spain,Yes
+I,France,Michael Olise,FWD,Bayern Munich,Germany,Yes
+I,Senegal,Edouard Mendy,GK,Al Ahli,Saudi Arabia,Yes
+I,Senegal,Mory Diaw,GK,Le Havre,France,Yes
+I,Senegal,Yehvann Diouf,GK,Nice,France,Yes
+I,Senegal,Ismail Jakobs,DEF,Galatasaray,Turkey,Yes
+I,Senegal,El Hadj Malick Diouf,DEF,West Ham United,England,Yes
+I,Senegal,Krepin Diatta,DEF,Monaco,France,Yes
+I,Senegal,Antoine Mendy,DEF,Nice,France,Yes
+I,Senegal,Kalidou Koulibaly,DEF,Al Hilal,Saudi Arabia,Yes
+I,Senegal,Abdoulaye Seck,DEF,Maccabi Haifa,Israel,Yes
+I,Senegal,Moussa Niakhate,DEF,Lyon,France,Yes
+I,Senegal,Mamadou Sarr,DEF,Chelsea,England,Yes
+I,Senegal,Habib Diarra,MID,Sunderland,England,Yes
+I,Senegal,Pape Matar Sarr,MID,Tottenham Hotspur,England,Yes
+I,Senegal,Pathe Ciss,MID,Rayo Vallecano,Spain,Yes
+I,Senegal,Pape Gueye,MID,Villarreal,Spain,Yes
+I,Senegal,Lamine Camara,MID,Monaco,France,Yes
+I,Senegal,Bara Sapoko Ndiaye,MID,Bayern Munich,Germany,Yes
+I,Senegal,Idrissa Gueye,MID,Everton,England,Yes
+I,Senegal,Sadio Mane,FWD,Al Nassr,Saudi Arabia,Yes
+I,Senegal,Ismaila Sarr,FWD,Crystal Palace,England,Yes
+I,Senegal,Ibrahim Mbaye,FWD,Paris Saint-Germain,France,Yes
+I,Senegal,Assane Diao,FWD,Como,Italy,Yes
+I,Senegal,Iliman Ndiaye,FWD,Everton,England,Yes
+I,Senegal,Cherif Ndiaye,FWD,Samsunspor,Turkey,Yes
+I,Senegal,Bamba Dieng,FWD,Lorient,France,Yes
+I,Senegal,Nicolas Jackson,FWD,Bayern Munich,Germany,Yes
+I,Iraq,Fahad Talib,GK,Al Talaba,Iraq,No
+I,Iraq,Jalal Hassan,GK,Al-Zawraa,Iraq,No
+I,Iraq,Ahmed Basil,GK,Al-Shorta,Iraq,No
+I,Iraq,Hussein Ali,DEF,Pogon Szczecin,Poland,Yes
+I,Iraq,Manaf Younis,DEF,Al-Shorta,Iraq,No
+I,Iraq,Zaid Tahseen,DEF,Pakhtakor,Uzbekistan,Yes
+I,Iraq,Rebin Sulaka,DEF,Port,Thailand,Yes
+I,Iraq,Akam Hashem,DEF,Al-Zawraa,Iraq,No
+I,Iraq,Merchas Doski,DEF,Viktoria Plzen,Czech Republic,Yes
+I,Iraq,Ahmed Yahya,DEF,Al-Shorta,Iraq,No
+I,Iraq,Zaid Ismail,DEF,Al Talaba,Iraq,No
+I,Iraq,Frans Putros,DEF,Persib Bandung,Indonesia,Yes
+I,Iraq,Mustafa Saadoon,DEF,Al-Shorta,Iraq,No
+I,Iraq,Amir Al Ammari,MID,Cracovia,Poland,Yes
+I,Iraq,Kevin Yakob,MID,AGF,Denmark,Yes
+I,Iraq,Zidane Iqbal,MID,Utrecht,Netherlands,Yes
+I,Iraq,Aimar Sher,MID,Sarpsborg,Norway,Yes
+I,Iraq,Ibrahim Bayesh,MID,Al-Dhafra,UAE,Yes
+I,Iraq,Ahmed Qasim,MID,Nashville SC,USA,Yes
+I,Iraq,Youssef Amyn,MID,AEK Larnaca,Cyprus,Yes
+I,Iraq,Marko Farji,MID,Venezia,Italy,Yes
+I,Iraq,Ali Jasim,FWD,Al-Najma,Iraq,No
+I,Iraq,Ali Al Hamadi,FWD,Ipswich Town,England,Yes
+I,Iraq,Ali Yousif,FWD,Apollon Limassol,Cyprus,Yes
+I,Iraq,Aymen Hussein,FWD,Al-Karma,Iraq,No
+I,Iraq,Mohanad Ali,FWD,Dibba,UAE,Yes
+I,Norway,Orjan Haskjold Nyland,GK,Sevilla,Spain,Yes
+I,Norway,Egil Selvik,GK,Watford,England,Yes
+I,Norway,Sander Tangvik,GK,Hamburger SV,Germany,Yes
+I,Norway,Kristoffer Vassbakk Ajer,DEF,Brentford,England,Yes
+I,Norway,Fredrik Bjorkan,DEF,Bodo/Glimt,Norway,No
+I,Norway,Henrik Falchener,DEF,Viking,Norway,No
+I,Norway,Sondre Langas,DEF,Derby County,England,Yes
+I,Norway,Torbjorn Heggem,DEF,Bologna,Italy,Yes
+I,Norway,Marcus Holmgren Pedersen,DEF,Torino,Italy,Yes
+I,Norway,Julian Ryerson,DEF,Borussia Dortmund,Germany,Yes
+I,Norway,David Moller Wolfe,DEF,Wolverhampton Wanderers,England,Yes
+I,Norway,Leo Ostigard,DEF,Genoa,Italy,Yes
+I,Norway,Martin Odegaard,MID,Arsenal,England,Yes
+I,Norway,Thelonious Aasgaard,MID,Rangers,Scotland,Yes
+I,Norway,Fredrik Aursnes,MID,Benfica,Portugal,Yes
+I,Norway,Patrick Berg,MID,Bodo/Glimt,Norway,No
+I,Norway,Sander Berge,MID,Fulham,England,Yes
+I,Norway,Oscar Bobb,MID,Fulham,England,Yes
+I,Norway,Morten Thorsby,MID,Cremonese,Italy,Yes
+I,Norway,Kristian Thorstvedt,MID,Sassuolo,Italy,Yes
+I,Norway,Antonio Nusa,MID,RB Leipzig,Germany,Yes
+I,Norway,Andreas Schjelderup,MID,Benfica,Portugal,Yes
+I,Norway,Jens Petter Hauge,MID,Bodo/Glimt,Norway,No
+I,Norway,Erling Haaland,FWD,Manchester City,England,Yes
+I,Norway,Alexander Sorloth,FWD,Atletico Madrid,Spain,Yes
+I,Norway,Jorgen Strand Larsen,FWD,Crystal Palace,England,Yes
+J,Argentina,Emiliano Martinez,GK,Aston Villa,England,Yes
+J,Argentina,Geronimo Rulli,GK,Marseille,France,Yes
+J,Argentina,Juan Musso,GK,Atletico Madrid,Spain,Yes
+J,Argentina,Gonzalo Montiel,DEF,River Plate,Argentina,No
+J,Argentina,Nahuel Molina,DEF,Atletico Madrid,Spain,Yes
+J,Argentina,Lisandro Martinez,DEF,Manchester United,England,Yes
+J,Argentina,Nicolas Otamendi,DEF,Benfica,Portugal,Yes
+J,Argentina,Cristian Romero,DEF,Tottenham Hotspur,England,Yes
+J,Argentina,Facundo Medina,DEF,Marseille,France,Yes
+J,Argentina,Nicolas Tagliafico,DEF,Lyon,France,Yes
+J,Argentina,Marcos Senesi,DEF,Tottenham Hotspur,England,Yes
+J,Argentina,Leandro Paredes,MID,Boca Juniors,Argentina,No
+J,Argentina,Rodrigo de Paul,MID,Inter Miami,USA,Yes
+J,Argentina,Exequiel Palacios,MID,Bayer Leverkusen,Germany,Yes
+J,Argentina,Enzo Fernandez,MID,Chelsea,England,Yes
+J,Argentina,Alex Mac Allister,MID,Liverpool,England,Yes
+J,Argentina,Giovani Lo Celso,MID,Real Betis,Spain,Yes
+J,Argentina,Valentin Barco,MID,Strasbourg,France,Yes
+J,Argentina,Lionel Messi,FWD,Inter Miami,USA,Yes
+J,Argentina,Nicolas Paz,FWD,Como,Italy,Yes
+J,Argentina,Thiago Almada,FWD,Atletico Madrid,Spain,Yes
+J,Argentina,Giuliano Simeone,FWD,Atletico Madrid,Spain,Yes
+J,Argentina,Lautaro Martinez,FWD,Inter,Italy,Yes
+J,Argentina,Jose Manuel Lopez,FWD,Palmeiras,Brazil,Yes
+J,Argentina,Julian Alvarez,FWD,Atletico Madrid,Spain,Yes
+J,Argentina,Nico Gonzalez,FWD,Atletico Madrid,Spain,Yes
+J,Algeria,Luca Zidane,GK,Granada,Spain,Yes
+J,Algeria,Osama Benbot,GK,USM Alger,Algeria,No
+J,Algeria,Melvin Mastil,GK,Lausanne-Sport,Switzerland,Yes
+J,Algeria,Rafik Belkhali,DEF,Hellas Verona,Italy,Yes
+J,Algeria,Samir Cherki,DEF,Paris FC,France,Yes
+J,Algeria,Rayan Ait Nouri,DEF,Manchester City,England,Yes
+J,Algeria,Jawin Haj Jam,DEF,Young Boys,Switzerland,Yes
+J,Algeria,Aissa Mandi,DEF,Lille,France,Yes
+J,Algeria,Ramy Bensebaini,DEF,Borussia Dortmund,Germany,Yes
+J,Algeria,Zinedine Belaid,DEF,JS Kabylie,Algeria,No
+J,Algeria,Ashref Abada,DEF,USM Alger,Algeria,No
+J,Algeria,Mohamed Amine Tougai,DEF,Esperance de Tunis,Tunisia,Yes
+J,Algeria,Nabil Bentaleb,MID,Lille,France,Yes
+J,Algeria,Hicham Boudaoui,MID,Nice,France,Yes
+J,Algeria,Houssem Aouar,MID,Al Ittihad,Saudi Arabia,Yes
+J,Algeria,Fares Chaibi,MID,Eintracht Frankfurt,Germany,Yes
+J,Algeria,Ibrahim Maza,MID,Bayer Leverkusen,Germany,Yes
+J,Algeria,Yacine Titraoui,MID,Charleroi,Belgium,Yes
+J,Algeria,Ramiz Zerrouki,MID,Twente,Netherlands,Yes
+J,Algeria,Mohamed Amoura,FWD,Wolfsburg,Germany,Yes
+J,Algeria,Nadhir Ben Bouali,FWD,Gyor,Hungary,Yes
+J,Algeria,Adil Boulbina,FWD,Al Duhail,Qatar,Yes
+J,Algeria,Fares Ghedjamis,FWD,Frosinone,Italy,Yes
+J,Algeria,Amine Gouiri,FWD,Marseille,France,Yes
+J,Algeria,Anis Haj Moussa,FWD,Feyenoord,Netherlands,Yes
+J,Algeria,Riyad Mahrez,FWD,Al Ahli,Saudi Arabia,Yes
+J,Austria,Alexander Schlager,GK,Red Bull Salzburg,Austria,No
+J,Austria,Florian Wiegele,GK,Viktoria Plzen,Czech Republic,Yes
+J,Austria,Patrick Pentz,GK,Brondby,Denmark,Yes
+J,Austria,David Affengruber,DEF,Elche,Spain,Yes
+J,Austria,Kevin Danso,DEF,Tottenham Hotspur,England,Yes
+J,Austria,Stefan Posch,DEF,Como,Italy,Yes
+J,Austria,David Alaba,DEF,Real Madrid,Spain,Yes
+J,Austria,Philipp Lienhart,DEF,Freiburg,Germany,Yes
+J,Austria,Phillipp Mwene,DEF,Mainz,Germany,Yes
+J,Austria,Alexander Prass,DEF,Hoffenheim,Germany,Yes
+J,Austria,Marco Friedl,DEF,Werder Bremen,Germany,Yes
+J,Austria,Michael Svoboda,DEF,Venezia,Italy,Yes
+J,Austria,Xaver Schlager,MID,RB Leipzig,Germany,Yes
+J,Austria,Nicolas Seiwald,MID,RB Leipzig,Germany,Yes
+J,Austria,Marcel Sabitzer,MID,Borussia Dortmund,Germany,Yes
+J,Austria,Florian Grillitsch,MID,Braga,Portugal,Yes
+J,Austria,Carney Chukwuemeka,MID,Borussia Dortmund,Germany,Yes
+J,Austria,Romano Schmid,MID,Werder Bremen,Germany,Yes
+J,Austria,Konrad Laimer,MID,Bayern Munich,Germany,Yes
+J,Austria,Patrick Wimmer,MID,VfL Wolfsburg,Germany,Yes
+J,Austria,Paul Wanner,MID,PSV,Netherlands,Yes
+J,Austria,Alessandro Schopf,MID,Wolfsberger,Austria,No
+J,Austria,Dejan Ljubicic,MID,Schalke,Germany,Yes
+J,Austria,Marko Arnautovic,FWD,Red Star Belgrade,Serbia,Yes
+J,Austria,Michael Gregoritsch,FWD,Brondby,Denmark,Yes
+J,Austria,Sasa Kalajdzic,FWD,Wolverhampton Wanderers,England,Yes
+J,Jordan,Yazid Abulaila,GK,Al Hussein,Jordan,No
+J,Jordan,Abdallah Al Fakhouri,GK,Al Wehdat,Jordan,No
+J,Jordan,Nour Bani Attiah,GK,Al Faisaly,Jordan,No
+J,Jordan,Mohammad Abualnadi,DEF,Selangor,Malaysia,Yes
+J,Jordan,Saed Al Rousan,DEF,Al Hussein,Jordan,No
+J,Jordan,Husam Abu Dahab,DEF,Al Samiya,Jordan,No
+J,Jordan,Mohammad Abu Hashish,DEF,Al Karma,Iraq,Yes
+J,Jordan,Yazan Al Arab,DEF,Seoul,South Korea,Yes
+J,Jordan,Abdallah Nasib,DEF,Al Zawraa,Jordan,No
+J,Jordan,Saleem Obaid,DEF,Al Hussein,Jordan,No
+J,Jordan,Ihsan Haddad,DEF,Al Hussein,Jordan,No
+J,Jordan,Anas Badawi,DEF,Al Faisaly,Jordan,No
+J,Jordan,Mohammad Al Dawoud,MID,Al Wehdat,Jordan,No
+J,Jordan,Nizar Al Rashdan,MID,Qatar SC,Qatar,Yes
+J,Jordan,Noor Al Rawabdeh,MID,Selangor,Malaysia,Yes
+J,Jordan,Rajaei Ayed,MID,Al Hussein,Jordan,No
+J,Jordan,Amer Jamous,MID,Al Zawraa,Jordan,No
+J,Jordan,Mohannad Abu Taha,MID,Al Quwa,Jordan,No
+J,Jordan,Ibrahim Sadeh,MID,Al Karma,Iraq,Yes
+J,Jordan,Mahmoud Al-Mardi,FWD,Al Hussein,Jordan,No
+J,Jordan,Shararh,FWD,Raja Club,Morocco,Yes
+J,Jordan,Mousa Al Tamari,FWD,Rennes,France,Yes
+J,Jordan,Ali Olwan,FWD,Al Sailiya,Qatar,Yes
+J,Jordan,Ibrahim Sabra,FWD,Lokomotiva Zagreb,Croatia,Yes
+J,Jordan,Ali Azaizeh,FWD,Al Shabab,Saudi Arabia,Yes
+J,Jordan,Odeh Al-Fakhouri,FWD,Pyramids,Egypt,Yes
+K,Portugal,Diogo Costa,GK,Porto,Portugal,No
+K,Portugal,Jose Sa,GK,Wolves,England,Yes
+K,Portugal,Rui Silva,GK,Sporting CP,Portugal,No
+K,Portugal,Joao Cancelo,DEF,Barcelona,Spain,Yes
+K,Portugal,Matheus Nunes,DEF,Manchester City,England,Yes
+K,Portugal,Nuno Mendes,DEF,Paris Saint-Germain,France,Yes
+K,Portugal,Ruben Dias,DEF,Manchester City,England,Yes
+K,Portugal,Goncalo Inacio,DEF,Sporting CP,Portugal,No
+K,Portugal,Diogo Dalot,DEF,Manchester United,England,Yes
+K,Portugal,Tomas Araujo,DEF,Benfica,Portugal,No
+K,Portugal,Renato Veiga,DEF,Villarreal,Spain,Yes
+K,Portugal,Nelson Semedo,DEF,Fenerbahce,Turkey,Yes
+K,Portugal,Bruno Fernandes,MID,Manchester United,England,Yes
+K,Portugal,Bernardo Silva,MID,Manchester City,England,Yes
+K,Portugal,Joao Neves,MID,Paris Saint-Germain,France,Yes
+K,Portugal,Vitinha,MID,Paris Saint-Germain,France,Yes
+K,Portugal,Ruben Neves,MID,Al Hilal,Saudi Arabia,Yes
+K,Portugal,Samuel Costa,MID,Mallorca,Spain,Yes
+K,Portugal,Cristiano Ronaldo,FWD,Al Nassr,Saudi Arabia,Yes
+K,Portugal,Goncalo Ramos,FWD,Paris Saint-Germain,France,Yes
+K,Portugal,Rafael Leao,FWD,Milan,Italy,Yes
+K,Portugal,Francisco Trincao,FWD,Sporting CP,Portugal,No
+K,Portugal,Joao Felix,FWD,Al Nassr,Saudi Arabia,Yes
+K,Portugal,Pedro Neto,FWD,Chelsea,England,Yes
+K,Portugal,Francisco Conceicao,FWD,Juventus,Italy,Yes
+K,Portugal,Goncalo Guedes,FWD,Real Sociedad,Spain,Yes
+K,DR Congo,Matthieu Epolo,GK,Standard Liege,Belgium,Yes
+K,DR Congo,Timothy Fayulu,GK,Noah,Armenia,Yes
+K,DR Congo,Lionel Mpasi,GK,Le Havre,France,Yes
+K,DR Congo,Dylan Batubinsika,DEF,Larisa,Greece,Yes
+K,DR Congo,Gedeon Kalulu,DEF,Aris Limassol,Cyprus,Yes
+K,DR Congo,Steve Kapuadi,DEF,Widzew Lodz,Poland,Yes
+K,DR Congo,Joris Kayembe,DEF,Racing Genk,Belgium,Yes
+K,DR Congo,Arthur Masuaku,DEF,Racing Lens,France,Yes
+K,DR Congo,Chancel Mbemba,DEF,Lille,France,Yes
+K,DR Congo,Axel Tuanzebe,DEF,Burnley,England,Yes
+K,DR Congo,Aaron Wan-Bissaka,DEF,West Ham United,England,Yes
+K,DR Congo,Theo Bongonda,MID,Spartak Moscow,Russia,Yes
+K,DR Congo,Brian Cipenga,MID,Castellon,Spain,Yes
+K,DR Congo,Meshack Elia,MID,Alanyaspor,Turkey,Yes
+K,DR Congo,Gael Kakuta,MID,Larisa,Greece,Yes
+K,DR Congo,Edo Kayembe,MID,Watford,England,Yes
+K,DR Congo,Nathanael Mbuku,MID,Montpellier,France,Yes
+K,DR Congo,Samuel Moutoussamy,MID,Atromitos,Greece,Yes
+K,DR Congo,Ngal'ayel Mukau,MID,Lille,France,Yes
+K,DR Congo,Charles Pickel,MID,Espanyol,Spain,Yes
+K,DR Congo,Noah Sadiki,MID,Sunderland,England,Yes
+K,DR Congo,Aaron Tshibola,MID,Kilmarnock,Scotland,Yes
+K,DR Congo,Cedric Bakambu,FWD,Real Betis,Spain,Yes
+K,DR Congo,Simon Banza,FWD,Al Jazira,UAE,Yes
+K,DR Congo,Fiston Mayele,FWD,Pyramids,Egypt,Yes
+K,DR Congo,Yoane Wissa,FWD,Newcastle United,England,Yes
+K,Uzbekistan,Utkir Yusupov,GK,Navbahor,Uzbekistan,No
+K,Uzbekistan,Abduvohid Nematov,GK,Nasaf,Uzbekistan,No
+K,Uzbekistan,Botirali Ergashev,GK,Neftchi Fergana,Uzbekistan,No
+K,Uzbekistan,Abdukodir Khusanov,DEF,Manchester City,England,Yes
+K,Uzbekistan,Khojiakbar Alijonov,DEF,Pakhtakor,Uzbekistan,No
+K,Uzbekistan,Farrukh Sayfiev,DEF,Neftchi,Uzbekistan,No
+K,Uzbekistan,Rustam Ashurmatov,DEF,Esteghlal,Iran,Yes
+K,Uzbekistan,Sherzod Nasrullaev,DEF,Nasaf,Uzbekistan,No
+K,Uzbekistan,Umar Eshmurodov,DEF,Nasaf,Uzbekistan,No
+K,Uzbekistan,Abdulla Abdullaev,DEF,Dibba,UAE,Yes
+K,Uzbekistan,Bekhruz Karimov,DEF,Surkhon,Uzbekistan,No
+K,Uzbekistan,Avazbek Ulmasaliev,DEF,AGMK,Uzbekistan,No
+K,Uzbekistan,Jakhongir Urozov,DEF,Dinamo Samarqand,Uzbekistan,No
+K,Uzbekistan,Akmal Mozgovoy,MID,Pakhtakor,Uzbekistan,No
+K,Uzbekistan,Otabek Shukurov,MID,Baniyas,UAE,Yes
+K,Uzbekistan,Jamshid Iskanderov,MID,Neftchi,Uzbekistan,No
+K,Uzbekistan,Odiljon Hamrobekov,MID,Tractor,Iran,Yes
+K,Uzbekistan,Jaloliddin Masharipov,MID,Esteghlal,Iran,Yes
+K,Uzbekistan,Oston Urunov,MID,Persepolis,Iran,Yes
+K,Uzbekistan,Dostonbek Khamdamov,MID,Pakhtakor,Uzbekistan,No
+K,Uzbekistan,Azizjon Ganiev,MID,Al-Bataeh,UAE,Yes
+K,Uzbekistan,Abbosbek Fayzullaev,MID,Istanbul Basaksehir,Turkey,Yes
+K,Uzbekistan,Sherzod Esanov,MID,Bukhara,Uzbekistan,No
+K,Uzbekistan,Eldor Shomurodov,FWD,Istanbul Basaksehir,Turkey,Yes
+K,Uzbekistan,Azizbek Amonov,FWD,Bukhara,Uzbekistan,No
+K,Uzbekistan,Igor Sergeev,FWD,Persepolis,Iran,Yes
+K,Colombia,Camilo Vargas,GK,Atlas,Mexico,Yes
+K,Colombia,David Ospina,GK,Atletico Nacional,Colombia,No
+K,Colombia,Alvaro Montero,GK,Velez Sarsfield,Argentina,Yes
+K,Colombia,Daniel Munoz,DEF,Crystal Palace,England,Yes
+K,Colombia,Santiago Arias,DEF,Independiente,Argentina,Yes
+K,Colombia,Yerry Mina,DEF,Cagliari,Italy,Yes
+K,Colombia,Davinson Sanchez,DEF,Galatasaray,Turkey,Yes
+K,Colombia,Jhon Lucumi,DEF,Bologna,Italy,Yes
+K,Colombia,Willer Ditta,DEF,Cruz Azul,Mexico,Yes
+K,Colombia,Yohan Mojica,DEF,Mallorca,Spain,Yes
+K,Colombia,Deiver Machado,DEF,Nantes,France,Yes
+K,Colombia,Richard Rios,MID,Benfica,Portugal,Yes
+K,Colombia,Jefferson Lerma,MID,Crystal Palace,England,Yes
+K,Colombia,Gustavo Puerta,MID,Racing de Santander,Spain,Yes
+K,Colombia,Kevin Castano,MID,River Plate,Argentina,Yes
+K,Colombia,Jhon Arias,MID,Palmeiras,Brazil,Yes
+K,Colombia,James Rodriguez,MID,Unattached,Unattached,N/A
+K,Colombia,Juan Fernando Quintero,MID,River Plate,Argentina,Yes
+K,Colombia,Jorge Carrascal,MID,Flamengo,Brazil,Yes
+K,Colombia,Juan Camilo Portilla,MID,Athletico Paranaense,Brazil,Yes
+K,Colombia,Luis Diaz,FWD,Bayern Munich,Germany,Yes
+K,Colombia,Luis Suarez,FWD,Sporting CP,Portugal,Yes
+K,Colombia,Andres Gomez,FWD,Vasco da Gama,Brazil,Yes
+K,Colombia,Jaminton Campaz,FWD,Rosario Central,Argentina,Yes
+K,Colombia,Jhon Cordoba,FWD,Krasnodar,Russia,Yes
+K,Colombia,Juan Camilo Hernandez,FWD,Real Betis,Spain,Yes
+L,England,Dean Henderson,GK,Crystal Palace,England,No
+L,England,Jordan Pickford,GK,Everton,England,No
+L,England,James Trafford,GK,Manchester City,England,No
+L,England,Dan Burn,DEF,Newcastle United,England,No
+L,England,Marc Guehi,DEF,Manchester City,England,No
+L,England,Reece James,DEF,Chelsea,England,No
+L,England,Ezri Konsa,DEF,Aston Villa,England,No
+L,England,Tino Livramento,DEF,Newcastle United,England,No
+L,England,Nico O'Reilly,DEF,Manchester City,England,No
+L,England,Jarell Quansah,DEF,Bayer Leverkusen,Germany,Yes
+L,England,Djed Spence,DEF,Tottenham Hotspur,England,No
+L,England,John Stones,DEF,Manchester City,England,No
+L,England,Elliot Anderson,MID,Nottingham Forest,England,No
+L,England,Jude Bellingham,MID,Real Madrid,Spain,Yes
+L,England,Eberechi Eze,MID,Arsenal,England,No
+L,England,Jordan Henderson,MID,Brentford,England,No
+L,England,Kobbie Mainoo,MID,Manchester United,England,No
+L,England,Declan Rice,MID,Arsenal,England,No
+L,England,Morgan Rogers,MID,Aston Villa,England,No
+L,England,Anthony Gordon,FWD,Newcastle United,England,No
+L,England,Harry Kane,FWD,Bayern Munich,Germany,Yes
+L,England,Noni Madueke,FWD,Arsenal,England,No
+L,England,Marcus Rashford,FWD,Barcelona,Spain,Yes
+L,England,Bukayo Saka,FWD,Arsenal,England,No
+L,England,Ivan Toney,FWD,Al Ahli,Saudi Arabia,Yes
+L,England,Ollie Watkins,FWD,Aston Villa,England,No
+L,Croatia,Dominik Livakovic,GK,Dinamo,Croatia,No
+L,Croatia,Dominik Kotarski,GK,Copenhagen,Denmark,Yes
+L,Croatia,Ivor Pandur,GK,Hull City,England,Yes
+L,Croatia,Josko Gvardiol,DEF,Manchester City,England,Yes
+L,Croatia,Duje Caleta-Car,DEF,Real Sociedad,Spain,Yes
+L,Croatia,Josip Sutalo,DEF,Ajax,Netherlands,Yes
+L,Croatia,Josip Stanisic,DEF,Bayern Munich,Germany,Yes
+L,Croatia,Marin Pongracic,DEF,Fiorentina,Italy,Yes
+L,Croatia,Martin Erlic,DEF,Midtjylland,Denmark,Yes
+L,Croatia,Luka Vuskovic,DEF,HSV,Germany,Yes
+L,Croatia,Luka Modric,MID,Milan,Italy,Yes
+L,Croatia,Mateo Kovacic,MID,Manchester City,England,Yes
+L,Croatia,Mario Pasalic,MID,Atalanta,Italy,Yes
+L,Croatia,Nikola Vlasic,MID,Torino,Italy,Yes
+L,Croatia,Luka Sucic,MID,Real Sociedad,Spain,Yes
+L,Croatia,Martin Baturina,MID,Como,Italy,Yes
+L,Croatia,Kristijan Jakic,MID,Augsburg,Germany,Yes
+L,Croatia,Petar Sucic,MID,Inter,Italy,Yes
+L,Croatia,Nikola Moro,MID,Bologna,Italy,Yes
+L,Croatia,Toni Fruk,MID,Rijeka,Croatia,No
+L,Croatia,Ivan Perisic,FWD,PSV,Netherlands,Yes
+L,Croatia,Andrej Kramaric,FWD,Hoffenheim,Germany,Yes
+L,Croatia,Ante Budimir,FWD,Osasuna,Spain,Yes
+L,Croatia,Marco Pasalic,FWD,Orlando City,USA,Yes
+L,Croatia,Petar Musa,FWD,Dallas,USA,Yes
+L,Croatia,Igor Matanovic,FWD,Freiburg,Germany,Yes
+L,Ghana,Benjamin Asare,GK,Accra Hearts of Oak,Ghana,No
+L,Ghana,Lawrence Ati-Zigi,GK,St. Gallen,Switzerland,Yes
+L,Ghana,Joseph Anang,GK,St. Patrick's Athletic,Ireland,Yes
+L,Ghana,Baba Rahman,DEF,PAOK,Greece,Yes
+L,Ghana,Gideon Mensah,DEF,Auxerre,France,Yes
+L,Ghana,Marvin Senaya,DEF,Auxerre,France,Yes
+L,Ghana,Alidu Seidu,DEF,Rennes,France,Yes
+L,Ghana,Abdul Mumin,DEF,Rayo Vallecano,Spain,Yes
+L,Ghana,Jerome Opoku,DEF,Istanbul Basaksehir,Turkey,Yes
+L,Ghana,Jonas Adjetey,DEF,Wolfsburg,Germany,Yes
+L,Ghana,Kojo Oppong Peprah,DEF,Nice,France,Yes
+L,Ghana,Derrick Luckassen,DEF,Pafos,Cyprus,Yes
+L,Ghana,Elisha Owusu,DEF,Auxerre,France,Yes
+L,Ghana,Thomas Partey,MID,Villarreal,Spain,Yes
+L,Ghana,Kwasi Sibo,MID,Real Oviedo,Spain,Yes
+L,Ghana,Augustine Boakye,MID,Saint-Etienne,France,Yes
+L,Ghana,Caleb Yirenkyi,MID,FC Nordsjaelland,Denmark,Yes
+L,Ghana,Abdul Fatawu Issahaku,MID,Leicester City,England,Yes
+L,Ghana,Kamaldeen Sulemana,FWD,Atalanta,Italy,Yes
+L,Ghana,Christopher Bonsu Baah,FWD,Al Qadsiah,Saudi Arabia,Yes
+L,Ghana,Ernest Nuamah,FWD,Lyon,France,Yes
+L,Ghana,Antoine Semenyo,FWD,Manchester City,England,Yes
+L,Ghana,Brandon Thomas-Asante,FWD,Coventry City,England,Yes
+L,Ghana,Prince Kwabena Adu,FWD,Viktoria Plzen,Czech Republic,Yes
+L,Ghana,Inaki Williams,FWD,Athletic Bilbao,Spain,Yes
+L,Ghana,Jordan Ayew,FWD,Leicester City,England,Yes
+L,Panama,Orlando Mosquera,GK,Al Fayha,Saudi Arabia,Yes
+L,Panama,Luis Mejia,GK,Nacional,Uruguay,Yes
+L,Panama,Cesar Samudio,GK,Marathon,Honduras,Yes
+L,Panama,Cesar Blackman,DEF,Slovan Bratislava,Slovakia,Yes
+L,Panama,Jorge Gutierrez,DEF,Deportivo La Guaira,Venezuela,Yes
+L,Panama,Amir Murillo,DEF,Besiktas,Turkey,Yes
+L,Panama,Fidel Escobar,DEF,Saprissa,Costa Rica,Yes
+L,Panama,Andres Andrade,DEF,LASK,Austria,Yes
+L,Panama,Edgardo Farina,DEF,Pari Nizhny Novgorod,Russia,Yes
+L,Panama,Jose Cordoba,DEF,Norwich City,England,Yes
+L,Panama,Eric Davis,DEF,Plaza Amador,Panama,No
+L,Panama,Jiovany Ramos,DEF,CAI,Panama,No
+L,Panama,Roderick Miller,DEF,Turan Tovuz,Azerbaijan,Yes
+L,Panama,Annibal Godoy,MID,San Diego,USA,Yes
+L,Panama,Adalberto Carrasquilla,MID,UNAM,Mexico,Yes
+L,Panama,Carlos Harvey,MID,Minnesota United,USA,Yes
+L,Panama,Cristian Martinez,MID,Ironi Kiryat Shmona,Israel,Yes
+L,Panama,Jose Luis Rodriguez,MID,Juarez,Mexico,Yes
+L,Panama,Cesar Yanis,MID,San Carlos,Costa Rica,Yes
+L,Panama,Edgar Yoel Barcenas,MID,Mazatlan,Mexico,Yes
+L,Panama,Alberto Quintero,MID,Plaza Amador,Panama,No
+L,Panama,Azarias Londono,MID,Alianza,El Salvador,Yes
+L,Panama,Ismael Diaz,FWD,Leon,Mexico,Yes
+L,Panama,Cecilio Waterman,FWD,Universidad de Concepcion,Chile,Yes
+L,Panama,Jose Fajardo,FWD,CAI,Panama,No
+L,Panama,Tomas Rodriguez,FWD,Monagas,Venezuela,Yes
